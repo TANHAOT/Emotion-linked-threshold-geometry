@@ -1,0 +1,59 @@
+{
+  "rows": 3909,
+  "source": "EmpatheticDialogues only",
+  "positive_definition": [
+    "joyful",
+    "excited",
+    "content"
+  ],
+  "control_definition": [
+    "angry",
+    "afraid",
+    "sad",
+    "disappointed",
+    "guilty",
+    "caring",
+    "grateful"
+  ],
+  "moral_keyword_filter": false,
+  "counts": {
+    "discovery": {
+      "positive": 1500,
+      "control": 1505,
+      "positive_per_label": {
+        "joyful": 500,
+        "excited": 500,
+        "content": 500
+      },
+      "control_per_label": {
+        "angry": 215,
+        "afraid": 215,
+        "sad": 215,
+        "disappointed": 215,
+        "guilty": 215,
+        "caring": 215,
+        "grateful": 215
+      },
+      "implicit_positive": 1029
+    },
+    "heldout": {
+      "positive": 450,
+      "control": 455,
+      "positive_per_label": {
+        "joyful": 150,
+        "excited": 150,
+        "content": 150
+      },
+      "control_per_label": {
+        "angry": 65,
+        "afraid": 65,
+        "sad": 65,
+        "disappointed": 65,
+        "guilty": 65,
+        "caring": 65,
+        "grateful": 65
+      },
+      "implicit_positive": 288
+    }
+  }
+}

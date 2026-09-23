@@ -1,0 +1,59 @@
+{
+  "rows": 3841,
+  "source": "EmpatheticDialogues only",
+  "positive_definition": [
+    "angry",
+    "furious",
+    "annoyed"
+  ],
+  "control_definition": [
+    "disgusted",
+    "afraid",
+    "sad",
+    "disappointed",
+    "guilty",
+    "caring",
+    "content"
+  ],
+  "moral_keyword_filter": false,
+  "counts": {
+    "discovery": {
+      "positive": 1500,
+      "control": 1505,
+      "positive_per_label": {
+        "angry": 500,
+        "furious": 500,
+        "annoyed": 500
+      },
+      "control_per_label": {
+        "disgusted": 215,
+        "afraid": 215,
+        "sad": 215,
+        "disappointed": 215,
+        "guilty": 215,
+        "caring": 215,
+        "content": 215
+      },
+      "implicit_positive": 1168
+    },
+    "heldout": {
+      "positive": 423,
+      "control": 427,
+      "positive_per_label": {
+        "angry": 141,
+        "furious": 141,
+        "annoyed": 141
+      },
+      "control_per_label": {
+        "disgusted": 61,
+        "afraid": 61,
+        "sad": 61,
+        "disappointed": 61,
+        "guilty": 61,
+        "caring": 61,
+        "content": 61
+      },
+      "implicit_positive": 317
+    }
+  }
+}

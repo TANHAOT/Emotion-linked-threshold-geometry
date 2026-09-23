@@ -1,0 +1,40 @@
+{
+  "name": "replace_with_model_sae_name",
+  "model": {
+    "repo_id": "REPLACE_WITH_HF_MODEL_ID",
+    "local_dir": null,
+    "local_dir_env": "BASE_MODEL_DIR",
+    "download_to_local_dir": false,
+    "trust_remote_code": true,
+    "dtype": "bfloat16",
+    "device_map": "auto",
+    "attn_implementation": "sdpa",
+    "padding_side": "right",
+    "local_files_only": false
+  },
+  "sae": {
+    "loader": "dictionary_batch_topk",
+    "repo_id": "REPLACE_WITH_HF_SAE_REPOSITORY_OR_NULL_FOR_LOCAL_FILE",
+    "local_dir": null,
+    "local_dir_env": "SAE_LOCAL_DIR",
+    "local_file": null,
+    "config_file": null,
+    "filename": "REPLACE_WITH_FILENAME_OR_TEMPLATE_USING_{layer}_AND_{trainer}",
+    "layer": 0,
+    "trainer": "trainer_0",
+    "hook_module": "auto",
+    "dtype": "bfloat16",
+    "require_normalized_decoder": true
+  },
+  "generation": {
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "max_new_tokens": 512,
+    "choice_marker": "choice",
+    "choice_marker_variants": ["choice", " choice"],
+    "zero_tokens": ["0", " 0"],
+    "one_tokens": ["1", " 1"],
+    "choice_scan_tokens": 10,
+    "chat_template_kwargs": {}
+  }
+}

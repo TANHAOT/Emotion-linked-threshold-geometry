@@ -1,0 +1,15 @@
+torch
+transformers
+huggingface_hub
+numpy
+pandas
+pypinyin
+openpyxl
+scikit-learn
+scipy
+statsmodels
+matplotlib
+seaborn
+safetensors
+einops
+# bitsandbytes is optional; 4-bit quantization is not enabled by default.

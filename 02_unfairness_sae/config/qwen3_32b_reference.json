@@ -1,0 +1,38 @@
+{
+  "name": "qwen3_32b_layer48_trainer1",
+  "model": {
+    "repo_id": "Qwen/Qwen3-32B",
+    "local_dir": "~/qwen/Qwen3-32B",
+    "local_dir_env": "BASE_MODEL_DIR",
+    "download_to_local_dir": true,
+    "trust_remote_code": true,
+    "dtype": "bfloat16",
+    "device_map": "auto",
+    "attn_implementation": "sdpa",
+    "padding_side": "right",
+    "local_files_only": false
+  },
+  "sae": {
+    "loader": "dictionary_batch_topk",
+    "repo_id": "adamkarvonen/qwen3-32b-saes",
+    "local_dir": "~/qwen3-32b_sae",
+    "local_dir_env": "SAE_LOCAL_DIR",
+    "filename": "saes_Qwen_Qwen3-32B_batch_top_k/resid_post_layer_{layer}/{trainer}/ae.pt",
+    "layer": 48,
+    "trainer": "trainer_1",
+    "hook_module": "model.layers.{layer}",
+    "dtype": "bfloat16",
+    "require_normalized_decoder": true
+  },
+  "generation": {
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "max_new_tokens": 512,
+    "choice_marker": "choice",
+    "choice_marker_variants": ["choice", " choice"],
+    "zero_tokens": ["0", " 0"],
+    "one_tokens": ["1", " 1"],
+    "choice_scan_tokens": 10,
+    "chat_template_kwargs": {}
+  }
+}

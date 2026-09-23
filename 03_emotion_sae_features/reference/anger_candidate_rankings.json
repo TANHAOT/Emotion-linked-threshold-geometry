@@ -1,0 +1,3751 @@
+{
+  "model": "Qwen3-32B",
+  "sae_layer": 48,
+  "sae_trainer": 1,
+  "dictionary_width": 16384,
+  "corpus": "EmpatheticDialogues-only broad anger",
+  "rankings": {
+    "anger": [
+      {
+        "emotion": "anger",
+        "feature_id": 5307,
+        "coverage": 0.8334452652787105,
+        "cohen_d_all": 1.1461819410324097,
+        "cohen_d_implicit": 1.112107515335083,
+        "coverage_angry": 0.836,
+        "cohen_d_angry": 1.1683608293533325,
+        "coverage_furious": 0.8757637474541752,
+        "cohen_d_furious": 1.2869216203689575,
+        "coverage_annoyed": 0.7891566265060241,
+        "cohen_d_annoyed": 0.9979144334793091,
+        "discovery_auc": 0.7966584066554645,
+        "discovery_implicit_auc": 0.7894538548085757,
+        "discovery_angry_auc": 0.8019367509986685,
+        "discovery_furious_auc": 0.8243774085333608,
+        "discovery_annoyed_auc": 0.7640294867886995,
+        "heldout_auc": 0.8022599808438664,
+        "heldout_implicit_auc": 0.7990528889841091,
+        "heldout_angry_auc": 0.7879482452206554,
+        "heldout_furious_auc": 0.8186423505572442,
+        "heldout_annoyed_auc": 0.8001893467536998,
+        "natural_scale": 10.8125,
+        "rank_score": 0.843695327454246,
+        "top_activating_examples": [
+          {
+            "activation": 48.5,
+            "text": "I was at the dentist's office today and had to wait 45 minutes past my appointment time to be seen.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 38.5,
+            "text": "Went to lunch and no one ever came over to wait on us.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 38.25,
+            "text": "When i went to pick up my pod from the place I was told it wasn't there. They had moved it 30 miles away without telling us when we confirmed earlier in the day.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.75,
+            "text": "A worker was supposed to come to look at my ac. I changed all my plans to wait for him. He didn't show up and didn't call!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.5,
+            "text": "Uber Eats did not even bring my order today! Customer sevice was being weird about a refund",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.25,
+            "text": "I arrived at work only to be told they had changed the schedule and I wasn't on it anymore. I wasn't notified beforehand.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.25,
+            "text": "I had to wait all day to pick my dog up from the vet, even though we had an appointment.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.75,
+            "text": "I am so mad! My insurance company keeps denying a valid claim and it causes the Doctor to send me a bill! I keep having to call and do their job for them!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 34.75,
+            "text": "Went out to eat with a group of friends. Everyone got their order except me. Put it in again and still after 40 mins had not gotten it.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.5,
+            "text": "I recently moved to a nearby city and used a local moving company to assist me. I gave full details of everything to be moved and I was quoted a \"final fee\". Once the move was completed, I was charged $400 more than the quoted rate due to \"unexpected situations\" that were beyond their control!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.25,
+            "text": "My doctor didn't see in my prescription right!!! I needed my medicine a week ago, but they kept messing it up. I was so angry. i couldn't see stragiht.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "I ordered food almost two hours ago and it's still not here, ugh!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.75,
+            "text": "I ordered a vacuum that I needed asap..however it didn't work when I got it and they wouldn't rush ship another one to me.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.75,
+            "text": "For the 3rd month in a row, I have received and incorrect cell phone bill! I feel like screaming at the customer care representatives!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.75,
+            "text": "One time I waited over an hour at the DPS office to get my drivers license renewed. Just as it was about to be my turn the lady working there shut it down and said I would have to come back the next day.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.5,
+            "text": "My internet company tried to deny having someone come out to fix my internet. It hasnt been working for 3 months.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.375,
+            "text": "We spent a lot of money on pizza. They didn't deliver what we ordered and then were rude when we called back! It was so frustrating.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.375,
+            "text": "One thing which really gets my goat is being kept on hold by customer service. The other day Comcast kept me waiting 20 minutes to speak with someone.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.25,
+            "text": "I ordered $50 worth of food to be delivered and it was all wrong when the guy delivered it!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.25,
+            "text": "I'm pretty mad about the fact my internet bill went up 40 dollars out of no where",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 662,
+        "coverage": 0.7575554063129617,
+        "cohen_d_all": 1.1138484477996826,
+        "cohen_d_implicit": 0.7822859287261963,
+        "coverage_angry": 0.786,
+        "cohen_d_angry": 1.2314822673797607,
+        "coverage_furious": 0.7759674134419552,
+        "cohen_d_furious": 1.2801220417022705,
+        "coverage_annoyed": 0.7108433734939759,
+        "cohen_d_annoyed": 0.8780871033668518,
+        "discovery_auc": 0.7769919936614624,
+        "discovery_implicit_auc": 0.7148748553464747,
+        "discovery_angry_auc": 0.8006451398135819,
+        "discovery_furious_auc": 0.7962716378162449,
+        "discovery_annoyed_auc": 0.7342352098139563,
+        "heldout_auc": 0.7714108547732546,
+        "heldout_implicit_auc": 0.6979883125614107,
+        "heldout_angry_auc": 0.7889531117644127,
+        "heldout_furious_auc": 0.8045908283090006,
+        "heldout_annoyed_auc": 0.7206886242463502,
+        "natural_scale": 33.25,
+        "rank_score": 0.7925740547126209,
+        "top_activating_examples": [
+          {
+            "activation": 93.0,
+            "text": "I am so upset and mad. I cant believe what has happened!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 91.5,
+            "text": "i got cheated and broken up with last night I can't believe it. I'm so angry.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry at Donald Trump.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry my husband cheated on me.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry against my manager. I was expecting to go with him in work trip to New York but he went alone. I had him in high esteem before.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry to see media reporting news without fact checking these days.. It is harming the country",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry my co-worker stole from me yesterday. How could they do this to me...",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry that my brother didnt come to my party",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry at myself lately.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry against Trump. He is started this tax war and now everything is increasing.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry I didn't win my school election.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am so angry that my water heater broke.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 90.0,
+            "text": "I am soooo mad. I came home and someone burnt a pizza in my oven and left it there.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 89.5,
+            "text": "Really sick of going through the same thing with a person who is in my life. It's making me quite angry when they lie to me.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 89.0,
+            "text": "I'm so angry. I lent my expensive designer dress to a friend and not only did she stain it, it's torn! I'll never lend her anything again.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 89.0,
+            "text": "I'm so angry at my self. I was in my performance review today and I passed wind in front of my boss. OMG",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 88.0,
+            "text": "I am so mad, my landlord is selling the house so I have to move.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 88.0,
+            "text": "I am so mad at my cable company! My internet and TV keeps going out and their technicians are incompetant!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 88.0,
+            "text": "I am so mad. My dog wont stop barking at every little noise.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 88.0,
+            "text": "I am so mad I can't play soccer this season.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 10325,
+        "coverage": 0.7790463398253862,
+        "cohen_d_all": 0.8581034541130066,
+        "cohen_d_implicit": 0.8601057529449463,
+        "coverage_angry": 0.772,
+        "cohen_d_angry": 0.872979998588562,
+        "coverage_furious": 0.7922606924643585,
+        "cohen_d_furious": 0.8940469026565552,
+        "coverage_annoyed": 0.7730923694779116,
+        "cohen_d_annoyed": 0.8086404204368591,
+        "discovery_auc": 0.7244573834394974,
+        "discovery_implicit_auc": 0.7249432568232309,
+        "discovery_angry_auc": 0.7263202396804261,
+        "discovery_furious_auc": 0.7333528140347833,
+        "discovery_annoyed_auc": 0.7138166514259434,
+        "heldout_auc": 0.7429036490773497,
+        "heldout_implicit_auc": 0.7526097267267046,
+        "heldout_angry_auc": 0.7380620193665188,
+        "heldout_furious_auc": 0.7531433222050591,
+        "heldout_annoyed_auc": 0.7375056056604714,
+        "natural_scale": 10.75,
+        "rank_score": 0.7862623897698932,
+        "top_activating_examples": [
+          {
+            "activation": 28.625,
+            "text": "I'm adhd when it comes to cleaning so when my family leaves the house a mess I get so furious.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 25.125,
+            "text": "I can't believe they put onions on my burger today I hate onions.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.75,
+            "text": "I was in McDonald's drive thru to place my food order. When I arrived home, I noticed they gave me the wrong order !",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.5,
+            "text": "My friend brought me some pizza, since I'm working late.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.25,
+            "text": "I just found out that my entire family planned a beach vacation trip together and didn't include me. I am dumbfounded and irate!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 24.125,
+            "text": "I was walking home when a car drove through a huge puddle near the sidewalk. I was completely drenched",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.875,
+            "text": "My sister slapped me. I was annoyed with her.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 23.75,
+            "text": "I was driving and someone cut me off in traffic",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.375,
+            "text": "Someone cut me off in traffic this morning. I was so mad!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 23.125,
+            "text": "I was on a flight and a kid kept kicking the back of my chair. I was so irritated.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.0,
+            "text": "My neighbor hit on my wife!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "A guy cut me off in traffic today",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "I got cut off in traffic the other day and it made me so angry!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "A truck cut me off from my exit on the highway.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "I always let other drivers cut in front of me if there is a huge line behind me, show some love right?",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "I got cut off in traffic the other day. There was noone behind me for a long way but no, they had to go right in front of me. Had to slam my breaks",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.75,
+            "text": "when someone treated me badly and talked down to me",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.625,
+            "text": "My boss scolded me for something I didn't do.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.5,
+            "text": "I have an older sister that is always comparing our kids as if her kids are smarter.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.25,
+            "text": "someone cut me off in traffic today",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 1353,
+        "coverage": 0.7421087978509067,
+        "cohen_d_all": 0.8987550139427185,
+        "cohen_d_implicit": 0.9205179810523987,
+        "coverage_angry": 0.688,
+        "cohen_d_angry": 0.7259856462478638,
+        "coverage_furious": 0.6924643584521385,
+        "cohen_d_furious": 0.6822333931922913,
+        "coverage_annoyed": 0.8453815261044176,
+        "cohen_d_annoyed": 1.3192113637924194,
+        "discovery_auc": 0.738536887016103,
+        "discovery_implicit_auc": 0.7425694824357073,
+        "discovery_angry_auc": 0.6959933422103861,
+        "discovery_furious_auc": 0.6931064080208059,
+        "discovery_annoyed_auc": 0.8260431873967239,
+        "heldout_auc": 0.75621605461159,
+        "heldout_implicit_auc": 0.7595431408328963,
+        "heldout_angry_auc": 0.7463334828176126,
+        "heldout_furious_auc": 0.6812413838922383,
+        "heldout_annoyed_auc": 0.841073297124919,
+        "natural_scale": 11.4375,
+        "rank_score": 0.7669600967224162,
+        "top_activating_examples": [
+          {
+            "activation": 59.25,
+            "text": "I was trying to get some work done but people kept interrupting me with questions.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 58.0,
+            "text": "I'm getting very frustrated with how often my bank calls me. I prequalified for a mortgage on the website last week and they've called me 3 times a day ever since.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 53.75,
+            "text": "I have knee problems and a coworker don't stop making jokes the way I am walking. He making very angry each time.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 53.75,
+            "text": "I had a very specific deadline.And none of my co-workers would leave me alone to complete my work because it was friday.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 50.75,
+            "text": "I have a coworker that will not stop talking. He mostly talks about himself.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 49.75,
+            "text": "I get irritated with a coworker that gets on my nerves all the time by coming and bothering me smelling like smoke and trying to chat itu p",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 48.25,
+            "text": "Telemarketers calls are so awful and come at the worst times",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 48.25,
+            "text": "At work today, a lady was outright belligerent. She wouldn't leave me alone!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 47.25,
+            "text": "My boss can be so bothersome at times. He will give us a bunch of work to do, but want to sit there and talk to us at length while we are trying to concentrate on our tasks!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 46.5,
+            "text": "I used to be miserable when no one would text me and I'd spend the weekend solo at my parents' house...now I've got to turn off my phone just to get away from it all",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.75,
+            "text": "My coworker is always coming over to my desk and talking for long periods of time. It causes me to get behind sometimes.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.75,
+            "text": "This lady in line behind me in Target wouldn't shut up. She was on her bluetooth screaming to the person she was talking to.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.5,
+            "text": "I have not been in the best mood today. It's hot, I have no energy and my two girly dogs want to be right on top of me all day.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.0,
+            "text": "My cubicle neighbor at work really bothers me. He eats all day long and is always chewing loud foods with his mouth open! I can barely think with him chomping like a cow!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 44.25,
+            "text": "My brother keeps calling me and asking me for money. He doesn't even work! He should get a job instead of bugging me all the time.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 43.75,
+            "text": "I was at the pool the other day with my family. It would have been quite relaxing if there wasn't this little kid shooting water on us and bothering us the whole time.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 43.25,
+            "text": "I have a coworker always disturbing me during working to talk to me about subject that I am not interesting in.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 43.25,
+            "text": "when my neighbors wouldnt stop their dog from barking and it bit me",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 43.25,
+            "text": "my brother wouldn't leave me alone and I think I'm going to punch him!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 43.0,
+            "text": "My cat won't leave me alone. I can't figure out what he wants, but he's so clingy",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 12077,
+        "coverage": 0.7971793149764943,
+        "cohen_d_all": 0.7822009921073914,
+        "cohen_d_implicit": 0.707711398601532,
+        "coverage_angry": 0.818,
+        "cohen_d_angry": 0.8283689022064209,
+        "coverage_furious": 0.824847250509165,
+        "cohen_d_furious": 0.8784977793693542,
+        "coverage_annoyed": 0.748995983935743,
+        "cohen_d_annoyed": 0.6458579897880554,
+        "discovery_auc": 0.7096944392030684,
+        "discovery_implicit_auc": 0.690503961986946,
+        "discovery_angry_auc": 0.7208388814913448,
+        "discovery_furious_auc": 0.7338185881146929,
+        "discovery_annoyed_auc": 0.674720185669442,
+        "heldout_auc": 0.728890882012612,
+        "heldout_implicit_auc": 0.7078029536270215,
+        "heldout_angry_auc": 0.7193515704154001,
+        "heldout_furious_auc": 0.7276811666417525,
+        "heldout_annoyed_auc": 0.7396399089806833,
+        "natural_scale": 10.3125,
+        "rank_score": 0.7456896295897488,
+        "top_activating_examples": [
+          {
+            "activation": 47.75,
+            "text": "Yesterday while swimming at my moms pool in the backyard, my toddler took her bottle of tanning oil and unscrewed the cap and poured it all over the lanai. I was so mad, that stuff is not cheap and can stain things easily.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 41.25,
+            "text": "My coworker can be really aggravating. He is constantly talking and asking me dumb questions! I can never get anything done in peace!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.25,
+            "text": "Yesterday my dog found my leather loafers and thought they were a chew toy. I was livid when I found the lumps that used to be my nice shoes. That mutt!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.5,
+            "text": "My cat constantly jumps on my keyboard even though I put him on the other side of the room. I can't get anything done, and if you lock him in another room he meows like a madman",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "My dog died and my parents didn't tell me. It was six months ago! They are jerks!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.25,
+            "text": "I was eating at a restaurant today, and some lady started cutting her toe nails. What was she thinking? Everyone could see what she was doing.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.25,
+            "text": "I was at the post officer yesterday and I had to wait in line to use the ONE pen in the whole post office. Why do post offices only have one pen?!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.75,
+            "text": "I can't believe they put onions on my burger today I hate onions.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "My internet connection keep breaking! How am I going to get all my work done?",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "When I got falsely accused of eating my roommate's ice cream last night, I was completely outraged! I don't even eat ice cream because I'm lactose intolerant, and she knows that!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 31.75,
+            "text": "On my 16th birthday, I knew I was going to get a car. I told my daddy I wanted a pink one. At my party, he revealed the car... and it was blue! That wasn't what I wanted at all!",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.75,
+            "text": "I dropped my phone earlier and the screen shattered. Im so mad. This phone was really expensive and now i have to get it fixed",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.875,
+            "text": "Someone stole my lawn mower. Suffice to say...I am not a happy camper. I can't stand thieves! I work hard for the things I have!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.625,
+            "text": "I get annoyed when adults don't seem to be able to clean up after themselves -- especially at work! Who do they think will clean up after them?!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.5,
+            "text": "I was at work and my friend left to go to the bathroom and didn't come back for what seemed like 30 minutes! There were so many customers that I had to deal with!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.0,
+            "text": "I arrived at the airport this morning a little late to fly to Japan. I discovered that the airline at given my seat away to someone else. I was only 10 minutes later!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.875,
+            "text": "I am so mad! I went outside and an armadillo was eating my plants.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 29.75,
+            "text": "I got a ticket because I was speeding. I wasn't even going that far over the speed limit!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.625,
+            "text": "I had a guest over that used my restroom, and they obviously have some sort of digestive issue! They didn't event tell me about it!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.75,
+            "text": "I asked for extra pickles on my burger at McDonald's. When I got it they only put 5 pickles on it!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 3336,
+        "coverage": 0.615849563465413,
+        "cohen_d_all": 0.7545670866966248,
+        "cohen_d_implicit": 0.739288866519928,
+        "coverage_angry": 0.63,
+        "cohen_d_angry": 0.8160468935966492,
+        "coverage_furious": 0.6517311608961304,
+        "cohen_d_furious": 0.8316150307655334,
+        "coverage_annoyed": 0.5662650602409639,
+        "cohen_d_annoyed": 0.6163512468338013,
+        "discovery_auc": 0.6942900846777833,
+        "discovery_implicit_auc": 0.6914928817276076,
+        "discovery_angry_auc": 0.706496671105193,
+        "discovery_furious_auc": 0.7142892979082879,
+        "discovery_annoyed_auc": 0.6623163760234011,
+        "heldout_auc": 0.7176795610698644,
+        "heldout_implicit_auc": 0.7026943165951285,
+        "heldout_angry_auc": 0.7439417343498264,
+        "heldout_furious_auc": 0.7633331672396898,
+        "heldout_annoyed_auc": 0.6457637816200774,
+        "natural_scale": 10.0625,
+        "rank_score": 0.7317453844911794,
+        "top_activating_examples": [
+          {
+            "activation": 35.5,
+            "text": "I am so annoyed that people are so mean to other people",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "All my neighbors constantly want to get together to gossip and talk bad about the people who live across the street. I'm sick of it!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.0,
+            "text": "it really drives me crazy that there are so many people who are so brutal to others",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.0,
+            "text": "I am so angry to see media reporting news without fact checking these days.. It is harming the country",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 32.75,
+            "text": "I'm a guy with pretty thick skin. I can take the most politically incorrect or classless jokes and dish them back...but I become livid when someone insults my family for no reason",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.375,
+            "text": "My roommate was stealing money from my room.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.125,
+            "text": "I get so mad when the local kids throw eggs at the front doors of houses in my neighborhood. It is so infuriating!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.625,
+            "text": "I am so mad that my brother stole 100 bucks from me.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.0,
+            "text": "i'm so mad at my sister because she always talks bad things about me behind my back",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.0,
+            "text": "I feel upset that someone I know would throw away progress constantly. They continue to listen and do things but none of it is doing anything because it's all a show.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.0,
+            "text": "Once my Uncle made racist comments towards me. I told him it's not funny, thinking he was joking. Turns out he was serious, and all he did was make more racist remarks.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.625,
+            "text": "It pisses me off when someone interrupts me in the middle of a sentence. Throws off my whole train of thought",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.375,
+            "text": "There are many situation that perturb me and regularly I experience them on here Go figure I know! Generally its from people still using hit scrapers and preventing the rest of us regular users from even getting a chance at hits. Some will be posted with a boatload available and in .00000001 seconds they're gone!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.25,
+            "text": "I felt let down by my girlfriend when she decided to move some money out of our joint account. She never told me about that.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.25,
+            "text": "I was so furious when my coworker badmouthed me to my boss. He said that i was stealing the office supplies just for the fun of it",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 29.25,
+            "text": "I was disgusted the way the cavs owner treated Lebron during his two stints with the team",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.125,
+            "text": "I was angry at my friend's attitude towards me",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 28.625,
+            "text": "I once found out my step father was stealing money from my mother to buy drugs. I confronted him about it and got in a fist fight with him.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.5,
+            "text": "A manager from another team is trying to undermine my work.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.375,
+            "text": "I am upset that the US is trying to ban our right to bear arms.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 10888,
+        "coverage": 0.6453995970449966,
+        "cohen_d_all": 0.6597635746002197,
+        "cohen_d_implicit": 0.7024268507957458,
+        "coverage_angry": 0.646,
+        "cohen_d_angry": 0.6855391263961792,
+        "coverage_furious": 0.6985743380855397,
+        "cohen_d_furious": 0.7568352222442627,
+        "coverage_annoyed": 0.5923694779116466,
+        "cohen_d_annoyed": 0.5417412519454956,
+        "discovery_auc": 0.6863595349473591,
+        "discovery_implicit_auc": 0.6968130921619293,
+        "discovery_angry_auc": 0.6894766977363513,
+        "discovery_furious_auc": 0.714976772314443,
+        "discovery_annoyed_auc": 0.6550148663896598,
+        "heldout_auc": 0.6884055563860239,
+        "heldout_implicit_auc": 0.6868918948869305,
+        "heldout_angry_auc": 0.7171425249555702,
+        "heldout_furious_auc": 0.7324397495307855,
+        "heldout_annoyed_auc": 0.615634394671716,
+        "natural_scale": 17.5,
+        "rank_score": 0.7236508198843957,
+        "top_activating_examples": [
+          {
+            "activation": 53.25,
+            "text": "A man was chasing after me because I did not give him money. I was scared for my life.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 49.25,
+            "text": "Some guys cornered me outside a bar last weekend and told me to give them my wallet or they would beat me up. I didn't know what to do, I was so scared.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 48.75,
+            "text": "I went to a restaurant and after I got the bill I realized that I did not have my wallet on me! The manager was yelling at me demanding me to pay before I left.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 47.75,
+            "text": "In school, people would always bully me.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 47.5,
+            "text": "In my class at school someone was making fun of me. At one point I couldn't take it so I shouted at him.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 47.25,
+            "text": "My brother was bothering me on the road trip last week.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 46.0,
+            "text": "she took me for $1600 in just 2 weeks",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 46.0,
+            "text": "Got a call from my cousin. Her husband took her and their 4 kids to a county fair. Ate about noon and headed home. They decided to stop at a cemetary to look around, lost track of time and now they are locked inside. It is 7pm and everyone is very hungry.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.5,
+            "text": "I was so scared of my uncle. He is so mad at me for not graduating.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.0,
+            "text": "I barley graduated and got a job in the bank. Also, my dream girl told me she been wanting to go out with me.",
+            "source_label": "content",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.0,
+            "text": "A man approached me after I got out of my car in a shopping center parking lot.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.0,
+            "text": "A girl on Tinder was super into me and complimenting me all the time. We met up and fooled around and then a few days after she randomly stopped talking to me.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.0,
+            "text": "A man poured a beer on me at the bar. I was so upset at him!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.0,
+            "text": "My brother tried to fight me after class. I couldn't believe it.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 44.75,
+            "text": "My wife left me last year.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 44.5,
+            "text": "My boss fired me because I kept making him look bad. I am so mad about it!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 44.5,
+            "text": "My boss scolded me for something I didn't do.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 44.5,
+            "text": "none of the girls at school like me.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 44.5,
+            "text": "My boss fired me for no reason",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 44.0,
+            "text": "One day my daughter came home and told me a much older boy tripped her as she was going off the bus. He did it on purpose, and this made me very, very upset. She was only 10, he was a teenager.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 14902,
+        "coverage": 0.6279382135661518,
+        "cohen_d_all": 0.6718885898590088,
+        "cohen_d_implicit": 0.6679064631462097,
+        "coverage_angry": 0.61,
+        "cohen_d_angry": 0.6123859882354736,
+        "coverage_furious": 0.7189409368635438,
+        "cohen_d_furious": 0.8703349828720093,
+        "coverage_annoyed": 0.5562248995983936,
+        "cohen_d_annoyed": 0.5472648739814758,
+        "discovery_auc": 0.6847228097034712,
+        "discovery_implicit_auc": 0.6830430514123574,
+        "discovery_angry_auc": 0.6704933422103863,
+        "discovery_furious_auc": 0.7362701733737231,
+        "discovery_annoyed_auc": 0.6481866213188305,
+        "heldout_auc": 0.6979863913941348,
+        "heldout_implicit_auc": 0.6984315782474753,
+        "heldout_angry_auc": 0.6979753184845616,
+        "heldout_furious_auc": 0.7680502267178235,
+        "heldout_annoyed_auc": 0.6279336289800189,
+        "natural_scale": 10.5,
+        "rank_score": 0.7166589022891776,
+        "top_activating_examples": [
+          {
+            "activation": 43.25,
+            "text": "My 15 year old son took my ferrari out for a test drive and crashed it. I only have three more of those!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 39.75,
+            "text": "I took my kid's phone away as punishment for getting on the phone late at night. She found the phone and was watching YouTube. She needs to start preparing to get up early for school.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 39.75,
+            "text": "I wanted to have a few things so I manipulated an account to make it appear I had money that I did not have.",
+            "source_label": "content",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.25,
+            "text": "I can't believe my son took my car without asking me! I missed an important job interview because I couldn't drive!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I went out to eat at a restaurant last week and got up to go to the restroom. As I was walking by the kitchen, I watched a cook drop a piece of chicken in the floor and put it right back on a plate. We left right after that.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.75,
+            "text": "Yesterday, I was caught taking the bus without paying. I had to pay a fine. I felt so bad.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "Over 20 years ago, when I was a cashier, I used to take money from the cash register and cover up my tracks. I was never caught. Sometimes I feel bad about it, other times I don't.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.25,
+            "text": "My son got brought home by the police last week for spray painting an abandoned building. I was furious with him!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 32.75,
+            "text": "Brother took my car without asking and i had to go to work. I was so furious at him and wasn't happy at all.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 32.25,
+            "text": "My friend took my car without permission a few days ago. Literally...without even asking me!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.625,
+            "text": "I just found out my husband is messaging another woman on facebook. He's asking her to meet up with her.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.625,
+            "text": "My child lied to me, and went somewhere he shouldnt have went.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.25,
+            "text": "My cat constantly jumps on my keyboard even though I put him on the other side of the room. I can't get anything done, and if you lock him in another room he meows like a madman",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.25,
+            "text": "I found my daughter sneaking on her computer late last night. I have warned her about that",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.25,
+            "text": "I walked out of a store without paying for an item and couldn't be bothered to go back in to return it.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.125,
+            "text": "I hate going to walmart. People just walk right out in front of you and don't even say excuse me!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.0,
+            "text": "I was at the store and I noticed someone cut in front of someone else in line.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.875,
+            "text": "I saw a colleague stealing money at work last week. I wonder If I should have said something to my boss.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.75,
+            "text": "I saw someone throw trash from a moving car yesterday.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.0,
+            "text": "I loaned out a bike to someone who needed it to get to work. I found out later that he had stopped going to work all together, and pawned the bike for drug money.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 1497,
+        "coverage": 0.664204163868368,
+        "cohen_d_all": 0.6075758337974548,
+        "cohen_d_implicit": 0.6489045023918152,
+        "coverage_angry": 0.616,
+        "cohen_d_angry": 0.5470700860023499,
+        "coverage_furious": 0.6578411405295316,
+        "cohen_d_furious": 0.593824565410614,
+        "coverage_annoyed": 0.7188755020080321,
+        "cohen_d_annoyed": 0.6872252225875854,
+        "discovery_auc": 0.6670150567097015,
+        "discovery_implicit_auc": 0.6780970190764882,
+        "discovery_angry_auc": 0.6475392809587217,
+        "discovery_furious_auc": 0.6622304001995981,
+        "discovery_annoyed_auc": 0.6912864507296831,
+        "heldout_auc": 0.6661766904180577,
+        "heldout_implicit_auc": 0.6816428903877836,
+        "heldout_angry_auc": 0.6688175793512382,
+        "heldout_furious_auc": 0.6376584118125799,
+        "heldout_annoyed_auc": 0.6920540800903551,
+        "natural_scale": 10.5625,
+        "rank_score": 0.7142407866296918,
+        "top_activating_examples": [
+          {
+            "activation": 34.25,
+            "text": "Wasn't able to register for one of the classes I need to be on track to graduate in my last year of college. Have to contact the school and see if they'll be able to make an exception and squeeze me into a full class, or I don't know what I'll do.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "My bank ended up charging me hundreds of dollars for something i didn't do.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "I don't get big companies who think they can take advantage of everyone. When I get a product, it should work right or they should replace it.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.125,
+            "text": "My landlord has not fixed a leaky tap in my apartment even though I've asked 4 times.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.125,
+            "text": "I was at a restaurant and the waiter didn't serve us at all! She was so lazy! I was so dissapointed.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.0,
+            "text": "I was in McDonald's drive thru to place my food order. When I arrived home, I noticed they gave me the wrong order !",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.0,
+            "text": "I worked for a company for 5 years and I found a new job that paid better. I worked out the last of my shifts but I felt bad for leaving a company that was so good to me.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.5,
+            "text": "I am scared to ask my landlord for an extension on the rent this month. She isnt tht nice.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.25,
+            "text": "I purchased a new phone online last week. When it got here, the box was empty. When I contacted the company, they initially refused to refund my money, and I got pretty angry.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 28.25,
+            "text": "My landlord didn't want to repair the ceiling. He take rent but he doesn't want to make any reparations.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 27.125,
+            "text": "My father in law was diagnosed with pancreatic cancer over 18 years ago now. I tried to help care for him, but it was too much and hospice had to be called in.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 27.0,
+            "text": "One thing which really gets my goat is being kept on hold by customer service. The other day Comcast kept me waiting 20 minutes to speak with someone.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.625,
+            "text": "I got a hamburger earlier and they forgot to put cheese on it. I was so upset about it.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.5,
+            "text": "I didn't receive a cashback offer on purchasing the item. I contacted them but not responding. They enraged me!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 26.5,
+            "text": "I was attacked by bees a few months ago, they we're furious.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 26.25,
+            "text": "My neighbor passed away a few days ago. She was a nice older lady who'd always greet me when I saw her in the hall. Didn't know her that well, but she seemed lonely. I feel kind of bad for not getting to know her better when she was still alive",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.125,
+            "text": "i dont know why i keep going to mcdonalds anymore , they always get my stuff bad",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.875,
+            "text": "Yesterday someone cut me off while I was driving on the road. They almost hit me. I was quite angry when I saw they were looking at their phone and not the road!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 25.875,
+            "text": "I applied to get a new passport. They have lost my paperwork.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.75,
+            "text": "Someone hit my car while it was parked. They didn't leave there information and ended up parking next to me. Had a big talk with the guy who did it.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 2189,
+        "coverage": 0.5359301544660846,
+        "cohen_d_all": 0.5136392116546631,
+        "cohen_d_implicit": 0.5371207594871521,
+        "coverage_angry": 0.52,
+        "cohen_d_angry": 0.5152723789215088,
+        "coverage_furious": 0.5458248472505092,
+        "cohen_d_furious": 0.5196004509925842,
+        "coverage_annoyed": 0.5421686746987951,
+        "cohen_d_annoyed": 0.5063619017601013,
+        "discovery_auc": 0.6419913363780014,
+        "discovery_implicit_auc": 0.6480526682195773,
+        "discovery_angry_auc": 0.6369860186418108,
+        "discovery_furious_auc": 0.6455472811539806,
+        "discovery_annoyed_auc": 0.6435107941753699,
+        "heldout_auc": 0.683115473837483,
+        "heldout_implicit_auc": 0.6813289105268212,
+        "heldout_angry_auc": 0.7194678359659177,
+        "heldout_furious_auc": 0.7056239307721693,
+        "heldout_annoyed_auc": 0.6242546547743617,
+        "natural_scale": 11.8125,
+        "rank_score": 0.701185152279611,
+        "top_activating_examples": [
+          {
+            "activation": 43.0,
+            "text": "I was at a baseball game and this guy heckled a kid an i got into a argument with im",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 41.5,
+            "text": "I was walking my dog and a stray dog ran up to us and started barking. Next thing I know he was trying to fight with my dog.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 40.5,
+            "text": "One day a back neighbor insulted my 10 year old son and made fun of him for his weight. She actually called him a name and cursed. Needless to say, I was so mad, beyond angry!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 39.0,
+            "text": "I did really well on a test last week. I got most of the answers right, but the teacher gave me a failing grade. The person sitting next to me cheated off of my answers, so she failed both of us. It's not fair.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 38.0,
+            "text": "I was driving through the parking lot the other day and someone backed into my new SUV!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 38.0,
+            "text": "My neighbor hit on my wife!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.5,
+            "text": "My husband's sister was living with us. She was acting rude, and we ended up kicking her out.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.0,
+            "text": "A giant wasp tried to attack me on my balcony. Another reason why I don't like to go on my balcony!",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.5,
+            "text": "My kids were arguing with each other a lot yesterday. It was so frustrating and I got angry with them.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 36.5,
+            "text": "During a work meeting, I was presenting and two coworker keep talking to each other. It was bothering me.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "My husband's sister lived with us, and she slept in all day. She was on our couch and would just lay there with the curtains drawn until like five o clock.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "My girlfriend broke up with me and told me that she wasn't ready for a relationship. I was so upset when I saw that she had a boyfriend only days after she broke up with me anyway.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "My girlfriend broke up with me recently. Things just didn't seem to work out",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.5,
+            "text": "My daughter just got her permit and is learning to drive. Some drivers are so mean, yelling at her and blowing their horns.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.0,
+            "text": "A guy almost crashed into me a week ago. It was really frustrating because he ran a redlight",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.0,
+            "text": "A boy started being rude to my son in the bounce house. His parent wasn't watching at all!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "Some jerk ran into my car because he crossed a red light. Now I have to have it repaired and get a rental",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "My friends girlfriend kissed me at a party.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "I was driving down the highway and a semi-truck doesn't even look and just merges into my lane. I had to swerve over and luckily there wasn't a car there.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "I work from home, sometimes my daughter will bug me intentionally to get a rise out of me, it can be bothersome.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 714,
+        "coverage": 0.4022834116856951,
+        "cohen_d_all": 0.6931295394897461,
+        "cohen_d_implicit": 0.6350147128105164,
+        "coverage_angry": 0.416,
+        "cohen_d_angry": 0.7224045991897583,
+        "coverage_furious": 0.41140529531568226,
+        "cohen_d_furious": 0.720163106918335,
+        "coverage_annoyed": 0.3795180722891566,
+        "cohen_d_annoyed": 0.6363385915756226,
+        "discovery_auc": 0.6500144423508749,
+        "discovery_implicit_auc": 0.6353286057865999,
+        "discovery_angry_auc": 0.6577010652463382,
+        "discovery_furious_auc": 0.6556709180698648,
+        "discovery_annoyed_auc": 0.6367199824597993,
+        "heldout_auc": 0.6858837012307539,
+        "heldout_implicit_auc": 0.6580279109626992,
+        "heldout_angry_auc": 0.7053332668958759,
+        "heldout_furious_auc": 0.690542627933629,
+        "heldout_annoyed_auc": 0.6617752088627569,
+        "natural_scale": 7.875,
+        "rank_score": 0.7003300500216874,
+        "top_activating_examples": [
+          {
+            "activation": 49.25,
+            "text": "my neighbor dog barks all day, I like to go over there and tell him where he can put that dog at,",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 43.25,
+            "text": "I was in a drive-thru line and someone cut in front of some other people. I confronted the guy about it and he basically told me to take a hike. I was furious and blew up at him. Finally he left the line but he flipped me off when he did.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.625,
+            "text": "My mother in law does not know how to mind her business. She continually tells my girls how their father and I should do things",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.625,
+            "text": "Someone keeps stealing my lunch from the fridge at work. They'd better hope that I don't find out who they are!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.375,
+            "text": "A coworker mad me very mad one day. She slammed a large order of work on my desk and basically demanded that I do it! She has no right to do that.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 27.5,
+            "text": "My brother keeps calling me and asking me for money. He doesn't even work! He should get a job instead of bugging me all the time.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.875,
+            "text": "During an argument, my wife told that I am not the real father of my son. I am so angry.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 25.75,
+            "text": "Super upset that my yard received a ticket for being too long yet all the abandoned houses around me have 5ft tall grass. instead of ticketing decent people, they should try and stop all the rapes and shootings in the area and deal with all the abandoned houses.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.375,
+            "text": "Once my Uncle made racist comments towards me. I told him it's not funny, thinking he was joking. Turns out he was serious, and all he did was make more racist remarks.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.875,
+            "text": "i hate when people tell me what to do",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.75,
+            "text": "Dude cut me off in traffic turning left in too a store then had the nerve to beep back at me. By the way there was NO one behind me for a mile. ARG!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.75,
+            "text": "One day a back neighbor insulted my 10 year old son and made fun of him for his weight. She actually called him a name and cursed. Needless to say, I was so mad, beyond angry!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 21.25,
+            "text": "I went to a restaurant and after I got the bill I realized that I did not have my wallet on me! The manager was yelling at me demanding me to pay before I left.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.0,
+            "text": "My brother asked to borrow my car lst week and I let him. he took it and when he brought it back I noticed that their was a small dent and blue paint on the passernger side door.When I asked him about he acted as if he had no idea where it came from, I wanted to kick him in his but if you know what I mean.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.75,
+            "text": "I was trying to buy something at Walmart, and this dude just starts criticizing what I'm buying like I asked his opinion!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.625,
+            "text": "Some guys cornered me outside a bar last weekend and told me to give them my wallet or they would beat me up. I didn't know what to do, I was so scared.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.625,
+            "text": "I recently got very upset with my sister when said some very mean things to me. I let her know that she was out of line by yelling at her. I feel bad for both of us.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.5,
+            "text": "A colleague at my job took credit for months of my work and claimed I was of no help to them. It all worked out as it should have in the end, but that's never an easy situation.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.0,
+            "text": "I found my girlfriend having sex with my best friend. They are both just aweful human beings!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.0,
+            "text": "I can't believe my ex didn't pay his car note and had the nerve to ask me for some money. He has a gambling problem.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 4233,
+        "coverage": 0.5943586299529886,
+        "cohen_d_all": 0.492367148399353,
+        "cohen_d_implicit": 0.531520426273346,
+        "coverage_angry": 0.59,
+        "cohen_d_angry": 0.4792991876602173,
+        "coverage_furious": 0.6109979633401222,
+        "cohen_d_furious": 0.47720301151275635,
+        "coverage_annoyed": 0.5823293172690763,
+        "cohen_d_annoyed": 0.5206028819084167,
+        "discovery_auc": 0.6387158737979984,
+        "discovery_implicit_auc": 0.6486203867137815,
+        "discovery_angry_auc": 0.6344440745672436,
+        "discovery_furious_auc": 0.6412414133497496,
+        "discovery_annoyed_auc": 0.6405147888491384,
+        "heldout_auc": 0.6437125251216635,
+        "heldout_implicit_auc": 0.6661175097333757,
+        "heldout_angry_auc": 0.6409387612736059,
+        "heldout_furious_auc": 0.6595163353098477,
+        "heldout_annoyed_auc": 0.630682478781537,
+        "natural_scale": 10.875,
+        "rank_score": 0.6983156619470434,
+        "top_activating_examples": [
+          {
+            "activation": 53.0,
+            "text": "I was lost in a neighborhood I didn't know, when some guy came up to me and quietly asked if I needed a ride.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 51.75,
+            "text": "An ex girlfriend asked is she could spend the night at my house because she was kicked out of her current home. In the middle of the night, I woke up because she had wet the bed. She's 40!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 51.5,
+            "text": "Last year my girlfriend asked me if I was ok with how life was turnig out for us. I stop and thought about how things use to be what we had hope for and how things are now, I looked at her smiled and replied I \" I am \".",
+            "source_label": "content",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 50.25,
+            "text": "I wanted to go to the party but I was not entirely prepared, so I borrowed my sister's shoes. She called me asking for her shoes, I did not tell her that I borrowed it and she is still looking for it.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 50.25,
+            "text": "I asked my son to do the dishes. He said he had to play his video game and he would do it later. Well, he never did them.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 45.75,
+            "text": "My little cousin was visiting last weekend and he kept screaming for Kraft Dinner for supper. I made a delicious chicken dinner but his mom apparently always give him what he wants.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 41.0,
+            "text": "My dad's wife asked me to give her back the glassware she gave us at our wedding. We've been married 10 years! I think this is an insane request.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 41.0,
+            "text": "My friend told me I'm getting fat. I was so irritated by that comment.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 40.0,
+            "text": "Once when I was in college this guy that I really didn't like more than a friend asked me on a date to go get some ice cream.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 38.25,
+            "text": "I homeless woman asked me for money to buy food and I said no. I felt bad afterward.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 38.0,
+            "text": "I went to a restaurant and after I got the bill I realized that I did not have my wallet on me! The manager was yelling at me demanding me to pay before I left.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.75,
+            "text": "Someone asked me to come pick them up at a specific place at a specific time. I was a little busy at the time, but I relented. Then they sat there and took 30 minutes longer than they said they would, and I had to sit around waiting in the car. How are people that inconsiderate?",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.75,
+            "text": "I was driving in my car and some person pulled out in front of me. Then they honked on the horn like I made a mistake.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.75,
+            "text": "Something which really irks me is someone queue jumping. The other day I was standing at the deli counter of my local store and some guy just walked up and started asking for stuff. The employee served him, too.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.75,
+            "text": "I was just accused from my wife that I stole $10 from her Purse. I am so furious right now, I would never do that",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "I got into a big argument with my mom. She said that we really needed to get a job but we were already looking for jobs.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "My boss called to tell me that I would be receiving a package the next day, and that I should call her before opening it. I was really hoping that it was a special award that my company gives to deserving employees, but it turned out to be some personnel paperwork that she needed to go over with me.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "MY daughter keeps begging me to watch IT. I am going to tomorrow, with all of the lights on.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "My neighbor is asking to borrow stuff from me. It gets so irritating.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.75,
+            "text": "My brother asked to borrow my car lst week and I let him. he took it and when he brought it back I noticed that their was a small dent and blue paint on the passernger side door.When I asked him about he acted as if he had no idea where it came from, I wanted to kick him in his but if you know what I mean.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 13780,
+        "coverage": 0.503693754197448,
+        "cohen_d_all": 0.633009672164917,
+        "cohen_d_implicit": 0.5665345788002014,
+        "coverage_angry": 0.514,
+        "cohen_d_angry": 0.6566824316978455,
+        "coverage_furious": 0.45010183299389,
+        "cohen_d_furious": 0.5097522735595703,
+        "coverage_annoyed": 0.5461847389558233,
+        "cohen_d_annoyed": 0.7297632098197937,
+        "discovery_auc": 0.6579165992243161,
+        "discovery_implicit_auc": 0.6409518861443427,
+        "discovery_angry_auc": 0.6641770972037284,
+        "discovery_furious_auc": 0.6272403936638453,
+        "discovery_annoyed_auc": 0.681875972598784,
+        "heldout_auc": 0.6992736171320058,
+        "heldout_implicit_auc": 0.6639011813030533,
+        "heldout_angry_auc": 0.6995033800056472,
+        "heldout_furious_auc": 0.6980002325311011,
+        "heldout_annoyed_auc": 0.7003172388592688,
+        "natural_scale": 9.0,
+        "rank_score": 0.693032053586277,
+        "top_activating_examples": [
+          {
+            "activation": 47.0,
+            "text": "I recently got very upset with my sister when said some very mean things to me. I let her know that she was out of line by yelling at her. I feel bad for both of us.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.625,
+            "text": "My kids were arguing with each other a lot yesterday. It was so frustrating and I got angry with them.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.375,
+            "text": "I bought some groceries today for someone I care about that is HARD to care about sometimes. But they are trying really hard to change..and while it's too soon to tell..I felt very compassionate towards them today.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.125,
+            "text": "I am feeling very empathetic to someone this week who sometimes I just want to run over! lol They are mentally ill and the mood swings can be a bit much and seem intentional.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.125,
+            "text": "I recently had an argument with my sister. The debate grew heated and we ended the conversation both very annoyed with one another.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 28.5,
+            "text": "I yelled at my kids yesterday and felt guilty afterwards.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.25,
+            "text": "I snapped and lost my temper at my husband, and I felt really bad about it.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.0,
+            "text": "I remember as a kid when I was mad I would try to break something my parents owned. Looking back, I feel remorse for what I did.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 27.875,
+            "text": "I always try to tell my kids to show kindness and understanding to others. It's hard when they go to school and other kids are mean to them and bully others. I hope those values stick with them always",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 27.0,
+            "text": "My neighbor keeps playing his music loudly late at night when I'm trying to sleep. I think I need to have a word with him.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.875,
+            "text": "My best friend always interrupts me when I talk. It is so irritating.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.75,
+            "text": "Why do people get so mad at each other for no reason?",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 26.625,
+            "text": "I have to deal with an entitled person lately and I can't stand it. I can't bare to be around that attitude you know?",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.375,
+            "text": "I recently had a fun day out with my son. But when we got home, his behavior turned horrible! I was not happy.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.25,
+            "text": "My sister leaves her clothes all over the living room. I get so irritated and I always tell her, but she seems to very lackadaisical.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.0,
+            "text": "I get so upset when someone does not agree with what I am doing. I am a grown women and feel I can make good choices for myself.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.75,
+            "text": "I am upset that my brother stole from me.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.625,
+            "text": "I got upset at my oldest son because he shows such lack of motivation. While gettting on him might have been warranted, I feel bad for getting upset.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.25,
+            "text": "Really tired of the person in my life continuing to repeat the same mistakes. I don't know how much more I can take of this.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.25,
+            "text": "I was so upset when my friend lied to me about something, I yelled at her.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 2890,
+        "coverage": 0.39959704499664206,
+        "cohen_d_all": 0.6433743834495544,
+        "cohen_d_implicit": 0.5920557379722595,
+        "coverage_angry": 0.398,
+        "cohen_d_angry": 0.6461329460144043,
+        "coverage_furious": 0.439918533604888,
+        "cohen_d_furious": 0.7213910818099976,
+        "coverage_annoyed": 0.3614457831325301,
+        "cohen_d_annoyed": 0.5655139684677124,
+        "discovery_auc": 0.6415873529719496,
+        "discovery_implicit_auc": 0.6289374718291202,
+        "discovery_angry_auc": 0.6410585885486019,
+        "discovery_furious_auc": 0.6623158260133806,
+        "discovery_annoyed_auc": 0.621681131984663,
+        "heldout_auc": 0.686415200890262,
+        "heldout_implicit_auc": 0.6686367363825088,
+        "heldout_angry_auc": 0.6717657415250718,
+        "heldout_furious_auc": 0.7490491138904115,
+        "heldout_annoyed_auc": 0.6384307472553026,
+        "natural_scale": 8.625,
+        "rank_score": 0.685839867281858,
+        "top_activating_examples": [
+          {
+            "activation": 30.625,
+            "text": "At work a coworker of mine tried to take credit for a job I had completed. I went straight to my boss and got it lined out once I found out what had happened.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.125,
+            "text": "When I was younger, this little kid was going around tripped other kids and being a jerk in general. He was picking on kids smaller than him, which really annoyed me. So, I tripped him with a hoola hoop.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 29.375,
+            "text": "I recently was talking to my mom about the new dog my husband and I decided to get. Without any research she started talking about how mean the dog will be and how it's a bad breed. I didn't even get mad because I've had to correct so many people before, but it was definitely irritating.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 29.25,
+            "text": "I was super annoyed when a scammer called me on the phone today. He wouldn't listen to my pleads to stop calling me.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 25.75,
+            "text": "I had a friend's boyfriend make a pass at me when I went to visit my friend. He actually kissed me, and this made me very upset. I couldn't believe the nerve!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.25,
+            "text": "My brother tried to fight me after class. I couldn't believe it.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.25,
+            "text": "Once my Uncle made racist comments towards me. I told him it's not funny, thinking he was joking. Turns out he was serious, and all he did was make more racist remarks.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.75,
+            "text": "My Superior questioned about my work in front of my colleagues. But I didn't make any mistake.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.75,
+            "text": "It really gets underneath my skin to see a child try to bully another child especially if it comes to my family members. I become a fierce protector and do my best to keep the peace. I have a look though that seems to work best.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.75,
+            "text": "Some dude..because I live in a ghetto city..thought it was okay to pull up on my property beeping until I came out..smoking his cig with ashes in my driveway.. Makes me so angry at how UNCOUTH people are here.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 24.75,
+            "text": "I have to deal with an entitled person lately and I can't stand it. I can't bare to be around that attitude you know?",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.125,
+            "text": "My neighbor was walking her dog the other day who she knows is aggressive towards other female dogs. She allowed her dog off leash to run up to my dog and they got in a fight. Thankfully my dog was able to defend herself and come out unscathed.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.625,
+            "text": "Recently, a person cut in front of me in line at the super market. I was very upset about it.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.5,
+            "text": "I didn't tell my friend when her boyfriend hit on me. I felt very bad and wrong for that, even though I turned him down, of course.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.75,
+            "text": "My neighbor left feces on my lawn. I am so irritated about it.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.5,
+            "text": "I found out that my first boyfriend had been cheating on me. I was so mad at him because I knew I deserved better. He never apologized to me about it and I told him I never wanted to see him again.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 22.375,
+            "text": "In my class at school someone was making fun of me. At one point I couldn't take it so I shouted at him.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.25,
+            "text": "Nothing makes me more furious than bullies. Playground or politics, I find them intolerable.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 22.125,
+            "text": "When I got falsely accused of eating my roommate's ice cream last night, I was completely outraged! I don't even eat ice cream because I'm lactose intolerant, and she knows that!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 22.0,
+            "text": "I was just accused from my wife that I stole $10 from her Purse. I am so furious right now, I would never do that",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 11715,
+        "coverage": 0.43720617864338485,
+        "cohen_d_all": 0.6366944313049316,
+        "cohen_d_implicit": 0.5671030282974243,
+        "coverage_angry": 0.458,
+        "cohen_d_angry": 0.6874780654907227,
+        "coverage_furious": 0.46435845213849286,
+        "cohen_d_furious": 0.7068709135055542,
+        "coverage_annoyed": 0.3895582329317269,
+        "cohen_d_annoyed": 0.5127511620521545,
+        "discovery_auc": 0.6470352044598695,
+        "discovery_implicit_auc": 0.6319741923200877,
+        "discovery_angry_auc": 0.6583934753661784,
+        "discovery_furious_auc": 0.6634189037834144,
+        "discovery_annoyed_auc": 0.6194779116465863,
+        "heldout_auc": 0.6941025683613755,
+        "heldout_implicit_auc": 0.6759653957254412,
+        "heldout_angry_auc": 0.7155978540701248,
+        "heldout_furious_auc": 0.7299815636055609,
+        "heldout_annoyed_auc": 0.6367282874084409,
+        "natural_scale": 8.625,
+        "rank_score": 0.6841814320925732,
+        "top_activating_examples": [
+          {
+            "activation": 27.625,
+            "text": "My police force is so corrupt. My neighbor has not come out of his house or let his dogs out in days. I am sure they won't do anything!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.5,
+            "text": "My doctor made wrong diagnosis multiple time. I can't trust him anymore.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.875,
+            "text": "I am so angry against my manager. I was expecting to go with him in work trip to New York but he went alone. I had him in high esteem before.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.75,
+            "text": "I've been quite upset with my daughter's school as they've really let her down. To make a long story short. Since she's now the only surviving 8th grade strings student (violin), they've lumped her in with the regular band this year rather than let her play with the 7th grade strings class.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.125,
+            "text": "I am mad at the democrats.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 24.25,
+            "text": "I am so piss off at the Democrats.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.0,
+            "text": "Upset with my neighbor who used to like animals..and IDK if he is on drugs or has a mental illness but he acted like he was going to hit the dog I had to rescue off his porch...He balled his fists and I had to run over there and get her.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.0,
+            "text": "im mad at my neighbor today",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 23.375,
+            "text": "I'm so mad at my neighbor! He's working on his home and dropped nails in the street. I got a flat tire because of him.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 23.375,
+            "text": "I'm so mad at my neighbor. He blasts his tv outside his patio all night. It's making me crazy.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "Took son to ER because of sore throat. They said it was just a virus and sent him home. Still sick 2 days later, took to his doctor. Just sore throat, heres some antibiotics. Getting worse, took to ENT, Severe strep throat, here is the correct antibiotic. That worked. ER visit bill, DR bill and ENT bill, for a simple sore throat!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.5,
+            "text": "My neighbor lets his dog bark all night long and go to the bathroom in my yard. I think it is inconsiderate of him.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.25,
+            "text": "I am so sick of being used by my friends. I am done with them.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.0,
+            "text": "When my brother got suspended from high school for something he did not do by a vindictive teach, it really made me angry",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 21.75,
+            "text": "I was infuriated by an air hostess",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.625,
+            "text": "Our marketing manager at work recently added a ton of new tasks to my workload that weren't part of my job when I was brought on. I'm a little irritated, like she's passing her work off on me.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.625,
+            "text": "I am furious at our politicians who won't stand up to Russian hacking",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 21.625,
+            "text": "my sister planned a birthday party for our mother on a day and time in which it will create a huge hardship on me. She knew my schedule when she made the plan.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.375,
+            "text": "I'm upset with the federal reserve bank.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.0,
+            "text": "I just discovered that my girlfriend had been sleeping with my best friend. It's infuriating to know that she did that behind my back",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 10343,
+        "coverage": 0.42175957018132976,
+        "cohen_d_all": 0.5521500110626221,
+        "cohen_d_implicit": 0.5491214990615845,
+        "coverage_angry": 0.39,
+        "cohen_d_angry": 0.494634747505188,
+        "coverage_furious": 0.48268839103869654,
+        "cohen_d_furious": 0.6669678092002869,
+        "coverage_annoyed": 0.39357429718875503,
+        "cohen_d_annoyed": 0.49482250213623047,
+        "discovery_auc": 0.6337732810248972,
+        "discovery_implicit_auc": 0.6329611049751637,
+        "discovery_angry_auc": 0.6162876165113182,
+        "discovery_furious_auc": 0.6663491447926865,
+        "discovery_annoyed_auc": 0.6192111989903689,
+        "heldout_auc": 0.6633364891125616,
+        "heldout_implicit_auc": 0.6605693008961355,
+        "heldout_angry_auc": 0.6684936967462255,
+        "heldout_furious_auc": 0.7223744747288521,
+        "heldout_annoyed_auc": 0.5991412958626073,
+        "natural_scale": 8.875,
+        "rank_score": 0.679664944613808,
+        "top_activating_examples": [
+          {
+            "activation": 45.25,
+            "text": "My brother asked to borrow my car lst week and I let him. he took it and when he brought it back I noticed that their was a small dent and blue paint on the passernger side door.When I asked him about he acted as if he had no idea where it came from, I wanted to kick him in his but if you know what I mean.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 42.5,
+            "text": "My brother borrowed my bike without telling me, and then it got stolen.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 40.75,
+            "text": "I do not like the fact my brother always uses my car.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 39.25,
+            "text": "My sister always is wearing my makeup",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 38.25,
+            "text": "My friend borrowed my car for his driving test. When he returned it, the right door had scratches on it",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 37.5,
+            "text": "A friend of mine borrowed my lawn mower. He ended up bringing it back broken.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.25,
+            "text": "My friend took my car without permission a few days ago. Literally...without even asking me!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.0,
+            "text": "I can't believe my son took my car without asking me! I missed an important job interview because I couldn't drive!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 34.75,
+            "text": "MY friend used my car all day today and didnt even put any gas in it. She left trash in it too",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.5,
+            "text": "My little brother took my car keys and flashed them down the toilet. Can't understand how they left him unattended in the room",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.75,
+            "text": "I'm feeling pretty guilty, I used my wife's razor's to shave this morning.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "I found out someone stole my identity. They completely cleared out my bank account and maxed out my credit cards. I am so mad.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.375,
+            "text": "My roommate recently started smoking marijuana and keeps it in my girlfriend's home now. It reeks in the hall and aggravates me in my office as well.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.75,
+            "text": "My 15 year old son took my ferrari out for a test drive and crashed it. I only have three more of those!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.625,
+            "text": "I borrowed my dad's car while he was sleeping, I accidentally scratched it.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.5,
+            "text": "My sister was looking for her credit card that she left in the bedroom. I wanted something at the store, I did not have any money, so I borrowed her card.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.0,
+            "text": "While driving in the road, people do not use indicators properly. They are using the blinkers for left and taking a right. Quality of driving is going down",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.625,
+            "text": "I am furious at the person who abused the dog I have.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 28.25,
+            "text": "I sat in a lot of traffic the other day as there was a wreck up ahead. This crazy person decided he was more important and zoomed by in the emergency lane.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.0,
+            "text": "I am soooo mad. I came home and someone burnt a pizza in my oven and left it there.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 12919,
+        "coverage": 0.4674278038952317,
+        "cohen_d_all": 0.5143499970436096,
+        "cohen_d_implicit": 0.5310806632041931,
+        "coverage_angry": 0.456,
+        "cohen_d_angry": 0.4809429943561554,
+        "coverage_furious": 0.505091649694501,
+        "cohen_d_furious": 0.584393322467804,
+        "coverage_annoyed": 0.44176706827309237,
+        "cohen_d_annoyed": 0.4796163737773895,
+        "discovery_auc": 0.6262377720684039,
+        "discovery_implicit_auc": 0.6306056466772411,
+        "discovery_angry_auc": 0.6194081225033289,
+        "discovery_furious_auc": 0.64486387464372,
+        "discovery_annoyed_auc": 0.6147305600564709,
+        "heldout_auc": 0.6599647881475575,
+        "heldout_implicit_auc": 0.6682341033843335,
+        "heldout_angry_auc": 0.6675469629777269,
+        "heldout_furious_auc": 0.6768066836082184,
+        "heldout_annoyed_auc": 0.6355407178567276,
+        "natural_scale": 9.15625,
+        "rank_score": 0.6773543372633113,
+        "top_activating_examples": [
+          {
+            "activation": 27.375,
+            "text": "Our marketing manager at work recently added a ton of new tasks to my workload that weren't part of my job when I was brought on. I'm a little irritated, like she's passing her work off on me.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.0,
+            "text": "I have a card table that I put my computer on. My son keeps putting his foot on it and I have to constantly tell him to take it down.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.75,
+            "text": "All these days I was struggled commuting by public transport. Recently, my spouse gifted me a motor bike. Now I feel peaceful and relaxed while travelling.",
+            "source_label": "content",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.75,
+            "text": "my little brother dumped a glass of water on me while i was sleeping just because we are in a prank war",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.375,
+            "text": "My sister spilled milk on me. I hated it",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 23.5,
+            "text": "My wife baked a huge bunch of cookies for a charity bake sale. I felt so bad eating so many, but they were so good.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "Recently my friend sent me a text message that was pretty mean. I was really hurt and angry.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 22.75,
+            "text": "I've been waiting for my husband to build my new furniture and he's taking forever!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.5,
+            "text": "my brother flushed my fish down the toilet for fun",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.5,
+            "text": "My sister surprised me with a visit the other week! She knew I was feeling down and drove hours to spend time with me.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.5,
+            "text": "Everytime my friend comes over and brings his kids, he never keeps a close eye on them and they ravage my place!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.375,
+            "text": "I went to a restaurant and the waitress put things on our bill that I did not order.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.125,
+            "text": "My fiance gave our toddler juice boxes when I told him not to, simply because I knew he would make a mess. He gave him juice boxes anyway, and this morning I had to figure out how to clean up a sticky walls and tables and half of all his toys!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.125,
+            "text": "I accidentally ate a piece of cake that my mom made for my dad as a special gift, I felt pretty bad about it.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.875,
+            "text": "I am furious, my step brother sold my laptop so that he could buy a new gaming station!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 20.25,
+            "text": "I get so annoyed at my husband when he leaves his dirty clothing on the floor.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 20.125,
+            "text": "My upstairs neighbor is making too much noise with her heels. Sometimes, she wake me up with the noise that she make.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.0,
+            "text": "I'm so hungry and my husband is taking long bringing me food",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 19.625,
+            "text": "Shortly after my nephew was born, i received a call from my sister informing me that he had a genetic disease.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 19.5,
+            "text": "I step on a lego that my son left on the floor",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 1978,
+        "coverage": 0.40899932840832776,
+        "cohen_d_all": 0.5512239933013916,
+        "cohen_d_implicit": 0.4787594974040985,
+        "coverage_angry": 0.428,
+        "cohen_d_angry": 0.5806159973144531,
+        "coverage_furious": 0.4175152749490835,
+        "cohen_d_furious": 0.5819657444953918,
+        "coverage_annoyed": 0.3815261044176707,
+        "cohen_d_annoyed": 0.48982521891593933,
+        "discovery_auc": 0.6318126089324376,
+        "discovery_implicit_auc": 0.6121585230602664,
+        "discovery_angry_auc": 0.640875499334221,
+        "discovery_furious_auc": 0.6374996271095431,
+        "discovery_annoyed_auc": 0.6171062412098461,
+        "heldout_auc": 0.6523660039530287,
+        "heldout_implicit_auc": 0.6383579961435886,
+        "heldout_angry_auc": 0.6711428903615859,
+        "heldout_furious_auc": 0.6627219426312555,
+        "heldout_annoyed_auc": 0.623233178866245,
+        "natural_scale": 8.6875,
+        "rank_score": 0.6753397839535101,
+        "top_activating_examples": [
+          {
+            "activation": 37.75,
+            "text": "I am angry that my brother ruined a movie ending for me, that is such a rude move",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 37.25,
+            "text": "My little sister caught off a chunk of my hair when I was sleeping last night. She did it because I came up with a fun but mean nickname for her the day before. But that was way over the line!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.125,
+            "text": "My neighbor lets his dog bark all night long and go to the bathroom in my yard. I think it is inconsiderate of him.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.625,
+            "text": "Once my Uncle made racist comments towards me. I told him it's not funny, thinking he was joking. Turns out he was serious, and all he did was make more racist remarks.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.0,
+            "text": "I recently got very upset with my sister when said some very mean things to me. I let her know that she was out of line by yelling at her. I feel bad for both of us.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.0,
+            "text": "I get so mad when I see or hear about kids getting bullied. It is so unfair.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 28.875,
+            "text": "I get so frustrated when I see people littering. Some people do not respect the environment at all. I want to scold them for being so inconsiderate.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.375,
+            "text": "I get so mad when I see lazy people not return their grocery carts. How inconsiderate of them. I want to yell at them.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 28.0,
+            "text": "I saw a man slap his dog on the sidewalk a few times while I was on the bus. I was so angry, I wanted to hop off the bus and yell at him for being an idiot.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 27.375,
+            "text": "I feel very upset about the treatment that some people can have with their pets, this is not good,",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.375,
+            "text": "I saw someone throw a little kitten out of his car window as he stopped at an intersection. How could anyone do that? I picked up the poor little kitten.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 26.0,
+            "text": "I am so angry my co-worker stole from me yesterday. How could they do this to me...",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 25.875,
+            "text": "My apartment complex is nickel and diming me and counting off so many things wrong with the apartment to detract from my security deposit as I get set to leave after this month. I know people said to expect to never see your security deposit again, but this is ridiculous! I feel like the apartment is pretty much exactly the same!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 25.5,
+            "text": "I saw my neighbor litter the driveway with some chocolate bars he ate. What a irresponsible person",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.875,
+            "text": "I watched a news report about the mistreatment of animals. The behavior of these people is something I can't stand.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.625,
+            "text": "I am so mad! I was supposed to start my vacation on Monday and my boss is making come into work! I can't believe he would do that!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 24.5,
+            "text": "I get so mad when the local kids throw eggs at the front doors of houses in my neighborhood. It is so infuriating!",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 24.5,
+            "text": "Yesterday I saw a guy not wash his hands after using the restroom. It was really gross behavior.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.375,
+            "text": "I had a friend's boyfriend make a pass at me when I went to visit my friend. He actually kissed me, and this made me very upset. I couldn't believe the nerve!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.0,
+            "text": "My dad's wife asked me to give her back the glassware she gave us at our wedding. We've been married 10 years! I think this is an insane request.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 13289,
+        "coverage": 0.49966420416386836,
+        "cohen_d_all": 0.5180483460426331,
+        "cohen_d_implicit": 0.5435541868209839,
+        "coverage_angry": 0.47,
+        "cohen_d_angry": 0.44617703557014465,
+        "coverage_furious": 0.4745417515274949,
+        "cohen_d_furious": 0.43303340673446655,
+        "coverage_annoyed": 0.5542168674698795,
+        "cohen_d_annoyed": 0.669461190700531,
+        "discovery_auc": 0.6254597630739046,
+        "discovery_implicit_auc": 0.6329459084700159,
+        "discovery_angry_auc": 0.6065206391478029,
+        "discovery_furious_auc": 0.6068439636492822,
+        "discovery_annoyed_auc": 0.6628290792998893,
+        "heldout_auc": 0.6833673825302704,
+        "heldout_implicit_auc": 0.6950147385840615,
+        "heldout_angry_auc": 0.6542096433969471,
+        "heldout_furious_auc": 0.7026259405052568,
+        "heldout_annoyed_auc": 0.6932665636886075,
+        "natural_scale": 8.5,
+        "rank_score": 0.6690666154551933,
+        "top_activating_examples": [
+          {
+            "activation": 28.75,
+            "text": "People are always parking in front of my apartment. It really gets on my nerves.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 28.25,
+            "text": "I watched a documentary about puppy mills and and organization getting them rescued. I was very moved",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.875,
+            "text": "My mother in law cannot mind her own business. She always tries to bend my husband's ear to her way of thinking we should do things.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 24.5,
+            "text": "I am so mad! All my boyfriend does is play video games 24/7.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 24.375,
+            "text": "I have an older sister that is always comparing our kids as if her kids are smarter.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.75,
+            "text": "I'm so mad at people around my apartment just throwing their used cigarettes all over the sidewalk.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 22.375,
+            "text": "My supervisor took all the credit for a new client I brought in. He didn't even recognize that I was involved at all, much less that I did all the work.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.25,
+            "text": "All my neighbors constantly want to get together to gossip and talk bad about the people who live across the street. I'm sick of it!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 22.0,
+            "text": "My girlfriend always tells me what to do. It is getting so irritating.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.625,
+            "text": "I was on the phone with my bank about some overdraft charges that were charged because of their error. I am still angry about it.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 21.375,
+            "text": "I was so furious when my brother lit a firecracker after tying it on our dog's tail. I was red with anger.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 21.375,
+            "text": "I do not like the fact my brother always uses my car.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 21.125,
+            "text": "The fast food guy forgot to give me my correct change in the drive thru. And he refused to give me my receipt! I had to demand to talk with the manager.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.875,
+            "text": "My classmates at university are so gossip-y. They get so catty with one another, and spread rumors behind each other's backs. We're in a small major, so everyone knows everyone in this group of 50 students, and a lot of them dislike each other for no good reason.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.625,
+            "text": "My neighbor recently began renovations on his home. I don't mind it, except he starts hammering on stuff at 5 am on the weekends.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.625,
+            "text": "Someone used some racial slurs today and it really made me angry. I freeze with anger when that happens",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 20.625,
+            "text": "My husband is talking so loud on his headset playing video games. ?ugh",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.5,
+            "text": "I have a coworker that will not stop talking. He mostly talks about himself.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 20.125,
+            "text": "I get angry with Prime Minister's question time. The MPs just shout at each other.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 20.0,
+            "text": "My coworker is always coming over to my desk and talking for long periods of time. It causes me to get behind sometimes.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "anger",
+        "feature_id": 14961,
+        "coverage": 0.5634654130288784,
+        "cohen_d_all": 0.41532912850379944,
+        "cohen_d_implicit": 0.45026540756225586,
+        "coverage_angry": 0.548,
+        "cohen_d_angry": 0.4030579924583435,
+        "coverage_furious": 0.5560081466395111,
+        "cohen_d_furious": 0.38492363691329956,
+        "coverage_annoyed": 0.5863453815261044,
+        "cohen_d_annoyed": 0.45719900727272034,
+        "discovery_auc": 0.6141882459831933,
+        "discovery_implicit_auc": 0.6237356794443472,
+        "discovery_angry_auc": 0.610122503328895,
+        "discovery_furious_auc": 0.6065917541038289,
+        "discovery_annoyed_auc": 0.6257600308023038,
+        "heldout_auc": 0.6256110861970646,
+        "heldout_implicit_auc": 0.6320562356400388,
+        "heldout_angry_auc": 0.6166226518511138,
+        "heldout_furious_auc": 0.6330243991562444,
+        "heldout_annoyed_auc": 0.6271862075838358,
+        "natural_scale": 8.8125,
+        "rank_score": 0.6680105787021483,
+        "top_activating_examples": [
+          {
+            "activation": 35.5,
+            "text": "My job brought in an incompetent manager who made my life miserable. I couldn't stand him and avoided him at all costs. It aggravated me to come to work every day.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 35.0,
+            "text": "I am so mad at my son. I asked him three times to do his chores and he still hasn't done them.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "I'm so mad at my son. He has had all summer to do his summer reading and he put it off to the last minute. School starts tomorrow and he still isn't done.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "I was at a restaurant and the waiter didn't serve us at all! She was so lazy! I was so dissapointed.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.75,
+            "text": "I asked my son to do the dishes. He said he had to play his video game and he would do it later. Well, he never did them.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.75,
+            "text": "I was supposed to meet a good friend for dinner at a local pub recently. I waited 2 hours and then called him. He said he couldn't be bothered going out and had forgotten to call me. I am not too happy with him right now.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.25,
+            "text": "We have a camping site booked and I got everything packed up. My family won't get out of bed so we can get going. I hate waiting.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 33.0,
+            "text": "My sister in law should have never had kids. She refuses to take care of them and let's my mother in law basically raise them while she goes out and spends all sorts of money on herself.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.75,
+            "text": "My sister in law refuses to ever take her boys to the doctor. There have been times they have been really sick and she just will not take them.",
+            "source_label": "disgusted",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.25,
+            "text": "I don't like doing my job and the duties of other co-worker that slack.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "I had to complete a project at work with my team. Unfortunatley I was the only one dedicated to actually doing it. The rest of my team just sat around and watched me scramble.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 31.0,
+            "text": "My sister in law is a horrible parent. Her kids can run fevers of like 104 and she will not take them to the doctor.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.25,
+            "text": "The other day I was at work and my friend wouldn't help do any of the work! the entire day she just sat there and talked, I was so mad at her. I practically did all the work that day",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          },
+          {
+            "activation": 30.25,
+            "text": "My sister in law is a horrible parent. She sleeps all day and never cares nor knows where her sons are.",
+            "source_label": "furious",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 30.0,
+            "text": "During my finals, I live in a college housing co-op, and in this co-op we have job duties and required working hours. One time, a resident wasn't doing his scheduled labor and was unapologetic about missing it, making other residents having to pick up his work. I had to confront him and make a big deal about it with the officers.",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 29.25,
+            "text": "I went to get in my car to drive home after work, and another car had parked right behind me, blocking me. I tried calling the number on their dashboard, and they just ignored my call. I had to get the police to help just to leave.",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 27.875,
+            "text": "It's easy to get irritated when you're working on a project and your teammates don't pull their weight -- but then *you're* the one who somehow suffers the consequences!",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "heldout",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 27.75,
+            "text": "Iy gets on my nerves to work with people who don't pull their weight,",
+            "source_label": "annoyed",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 27.5,
+            "text": "I just told a friend I couldn't attend her birthday because I have a headache, but the truth is I prefer to stay home and finish watching a series on Netflix, now I feel bad bout ir.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "anger_kind": "implicit"
+          },
+          {
+            "activation": 27.375,
+            "text": "My girlfriend didn't want to go to dinner with me and with another guy instead. I was so mad!",
+            "source_label": "angry",
+            "target_label": 1,
+            "split": "discovery",
+            "anger_kind": "explicit"
+          }
+        ]
+      }
+    ]
+  }
+}

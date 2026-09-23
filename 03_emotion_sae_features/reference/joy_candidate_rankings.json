@@ -1,0 +1,3867 @@
+{
+  "model": "Qwen3-32B",
+  "sae_layer": 48,
+  "sae_trainer": 1,
+  "dictionary_width": 16384,
+  "corpus": "EmpatheticDialogues-only broad joy",
+  "positive_subtypes": [
+    "joyful",
+    "excited",
+    "content"
+  ],
+  "rankings": {
+    "joy": [
+      {
+        "emotion": "joy",
+        "feature_id": 7435,
+        "eligible": true,
+        "conservative_effect_rank": 1,
+        "coverage": 0.9966644429619747,
+        "cohen_d_all": 1.0980987548828125,
+        "cohen_d_implicit": 1.078803539276123,
+        "conservative_cohen_d": 0.8885961771011353,
+        "coverage_joyful": 0.994,
+        "cohen_d_joyful": 1.0025262832641602,
+        "coverage_excited": 1.0,
+        "cohen_d_excited": 1.4464218616485596,
+        "coverage_content": 0.9959919839679359,
+        "cohen_d_content": 0.8885961771011353,
+        "discovery_auc": 0.7849376882484225,
+        "discovery_implicit_auc": 0.7820736837687139,
+        "discovery_joyful_auc": 0.7663209302325582,
+        "discovery_excited_auc": 0.8469634551495017,
+        "discovery_content_auc": 0.7414416873614339,
+        "heldout_auc": 0.7427789987789988,
+        "heldout_implicit_auc": 0.7231608669108669,
+        "heldout_joyful_auc": 0.7391428571428571,
+        "heldout_excited_auc": 0.8022490842490844,
+        "heldout_content_auc": 0.686945054945055,
+        "natural_scale": 38.25,
+        "rank_score": 0.8199354561862762,
+        "rank_score_rank": 1,
+        "top_activating_examples": [
+          {
+            "activation": 94.5,
+            "text": "I've felt excited when I found out I had won a place on a prestigious creative writing course, taught by someone who I knew could help me in ways that I would I not be able to through self-study alone.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 89.0,
+            "text": "My daughter will turn 16 next month and I cannot wait! We are giving her a new to her car that we've been working on for almost a year now!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 87.0,
+            "text": "I get some great supplements tomorrow in the mail that I think will really help a lot of my health issues. They are real food type powders and seem to help a lot of people!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 83.0,
+            "text": "I am super excited to try a few new supplements I have learned about.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 81.0,
+            "text": "I've never had a lust for life like I do these days. I literally wake up every day stoked that I'm living my dreams and can't wait to see how much money I can make",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 80.0,
+            "text": "I was so excited to go to Flower & Garden Festival at Epcot this year. I couldn't wait to try all the food and see the beautiful gardening.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 79.0,
+            "text": "I'm pretty stoked for the release of my EP. I'm sitting on 7 songs and refining the song structure. But I feel like a lot of people will dig it",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 78.5,
+            "text": "I just discovered that our local organic store stocks Indian food made by a local Indian lady. I was the happiest person alive at that point - I love Indian food!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 78.0,
+            "text": "I am super excited to finally get some new perfume today. It's hard when you're poor.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 78.0,
+            "text": "I got my work done early on Friday so I got to spend the day trying out a new bike trail on my new bike. The weather was amazing. I felt really satisfied with life.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 78.0,
+            "text": "The new addition to our family was just born this weekend.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 78.0,
+            "text": "I really love my life. This may seem crazy to some since it's fairly simple. I work online, I play games and then I read and watch tv and then I do chores.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 77.0,
+            "text": "After living in my home for 19 years, I'm remodeling my kitchen! It's so much fun to pick everything out!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 77.0,
+            "text": "I love what I do because it's about both inspiring and empowering people to be their best and to excell at their jobs.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 76.5,
+            "text": "NASA released some free space posters a couple of months back. I picked a few that I liked, had them printed for a small fee and now they're up on my wall! I'm so happy.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 76.0,
+            "text": "My husband and I had been wanting a camper for about 1 year. Last week we finally found the camper of our dreams and now have our first camping trip planned.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 75.5,
+            "text": "I am so thrilled I will be closing on my first house next month for me and my family.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 75.5,
+            "text": "I feel very blessed that I have been able to live around the world my whole life. Now I am settled in one place for awhile.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 75.0,
+            "text": "I just won a contest for a free air fryer! I've never used one before but I love frying foods! I think it's going to be an awesome addition to my kitchen.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 74.5,
+            "text": "i'm so blessed. i have a great husband and together we have built a good life .",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 3271,
+        "eligible": true,
+        "conservative_effect_rank": 2,
+        "coverage": 0.6651100733822548,
+        "cohen_d_all": 0.9445388317108154,
+        "cohen_d_implicit": 0.6251446604728699,
+        "conservative_cohen_d": 0.6251446604728699,
+        "coverage_joyful": 0.736,
+        "cohen_d_joyful": 1.200110673904419,
+        "coverage_excited": 0.61,
+        "cohen_d_excited": 0.6973927021026611,
+        "coverage_content": 0.6492985971943888,
+        "cohen_d_content": 0.9524946212768555,
+        "discovery_auc": 0.7403300982493312,
+        "discovery_implicit_auc": 0.667373736395365,
+        "discovery_joyful_auc": 0.7905554817275748,
+        "discovery_excited_auc": 0.6932259136212623,
+        "discovery_content_auc": 0.7372026444916411,
+        "heldout_auc": 0.7607741147741148,
+        "heldout_implicit_auc": 0.670199938949939,
+        "heldout_joyful_auc": 0.7956703296703297,
+        "heldout_excited_auc": 0.7005274725274725,
+        "heldout_content_auc": 0.7861245421245422,
+        "natural_scale": 12.0,
+        "rank_score": 0.7414067462202981,
+        "rank_score_rank": 2,
+        "top_activating_examples": [
+          {
+            "activation": 44.0,
+            "text": "I'm working on being happier on a day to day basis.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 43.75,
+            "text": "ON the first day of Highschool I walked in with a huge smile on my face",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 43.25,
+            "text": "I'm so happy I have my dogs in my life, they are so loyal and happy.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 42.75,
+            "text": "I am just feeling generally happy to have what I need in life right now and to be healthy.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 42.25,
+            "text": "I have been feeling so pleasant and happy lately. Things in my life have just been going perfectly.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 39.75,
+            "text": "I am going to be pretty happy and joyful next week thinking my next trip. We are going to asheville",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 39.0,
+            "text": "Having a baby caused me to have a more optimistic view on life.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 39.0,
+            "text": "I an normally very relaxed, happy, and laid back. Everything in life just seems right!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 38.75,
+            "text": "I can't seem to feel happy : joyful",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 38.5,
+            "text": "I just ate a granola bar with a bit of chocolate in it. I feel happy and full.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 38.5,
+            "text": "My wife made me pancakes for breakfast. I have a full belly and feel rather happy now.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 37.0,
+            "text": "I really love my wife and kids and it just puts me in a very happy mood I feel like everything is right in the world with them",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "Today is my first day off in a long time. I'm playing some Zelda on the Switch, and I'm feeling pretty happy!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "I love seeing happy couples that have been together for decades. I want to be so lucky.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I was so happy France won the world cup. I was just so happy. I had a smile on face for day or so",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.75,
+            "text": "You have to be happy in order to live long",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.75,
+            "text": "I'm feeling happy to know that there's so many things I can be grateful for",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.25,
+            "text": "I love spending time with my family we just got back from vacation and I'm feeling so happy after the great trip we had.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.25,
+            "text": "I am already shopping for christmas, it's my favourite time of the year! It makes me feel so happy",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 34.25,
+            "text": "I watched a film recently at the theater and it was really good, so that made me feel happy.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 7565,
+        "eligible": true,
+        "conservative_effect_rank": 3,
+        "coverage": 0.5783855903935957,
+        "cohen_d_all": 0.6597163081169128,
+        "cohen_d_implicit": 0.6342281103134155,
+        "conservative_cohen_d": 0.5945640802383423,
+        "coverage_joyful": 0.524,
+        "cohen_d_joyful": 0.5945640802383423,
+        "coverage_excited": 0.646,
+        "cohen_d_excited": 0.7808043956756592,
+        "coverage_content": 0.5651302605210421,
+        "cohen_d_content": 0.6036105751991272,
+        "discovery_auc": 0.6678849022271769,
+        "discovery_implicit_auc": 0.6631742587875207,
+        "discovery_joyful_auc": 0.6426943521594685,
+        "discovery_excited_auc": 0.7057993355481728,
+        "discovery_content_auc": 0.6551355202098549,
+        "heldout_auc": 0.6548180708180709,
+        "heldout_implicit_auc": 0.638877442002442,
+        "heldout_joyful_auc": 0.6466739926739926,
+        "heldout_excited_auc": 0.6522930402930402,
+        "heldout_content_auc": 0.6654871794871795,
+        "natural_scale": 8.9375,
+        "rank_score": 0.7094828423821862,
+        "rank_score_rank": 3,
+        "top_activating_examples": [
+          {
+            "activation": 48.25,
+            "text": "Christmas is my favorite time of the year. I could not love it more. And I start shopping now, so I'm already in the Christmas spirit!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 48.0,
+            "text": "The weekend is finally here, woohoo!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 42.5,
+            "text": "I found 5 packs of gluten free cookies on clearance at my grocery store yesterday. I am a simple person, stuff like being able to have a bunch of cookies that are good for me and so cheap excites me!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 40.5,
+            "text": "I am so excited that the kids go back to school in just one week!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 40.0,
+            "text": "I'm so happy that it is Friday!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 39.5,
+            "text": "I can't wait for Friday to get here!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 38.75,
+            "text": "I made fish tacos the other day and did absolutely nothing but watch Netflix and relax on the couch. It was so nice and chill.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 38.5,
+            "text": "I am so happy the kids are going back to school!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 37.75,
+            "text": "Saturday was mine and my husband's anniversary. It was just a good day relaxing with the kids and having family time.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 37.0,
+            "text": "I am so thrilled to be able to go on a short but long overdue vacation.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.5,
+            "text": "I'm so ready for fall to come around, I love layering and scarves",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 35.25,
+            "text": "I had a crazy week with 4 big events and I'm so happy to be at home relaxing in the air conditioning today.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "I am already shopping for christmas, it's my favourite time of the year! It makes me feel so happy",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "Only 3 more days until I go on vacation. I am so ready for the beach! I can't wait.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.5,
+            "text": "It's finally Friday and I'm just so happy about that fact.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 33.0,
+            "text": "I recently renovated my home. It's so relaxing to have all of the work done and just enjoy the new space we worked so hard on!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.0,
+            "text": "I have a wonderful husband and two sweet kids. I'm feeling so much better from a horrible autoimmune flare. Life is good!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 32.5,
+            "text": "I'm so excited to see my sister today, it's been 6 months!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 32.25,
+            "text": "I'm getting all worked up for fall, it's my favorite season.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "I'm so ready to go camping this weekend! I'm all packed up and we are heading to the beach for the weekend.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 14013,
+        "eligible": true,
+        "conservative_effect_rank": 6,
+        "coverage": 0.6410940627084724,
+        "cohen_d_all": 0.6585726737976074,
+        "cohen_d_implicit": 0.5554713606834412,
+        "conservative_cohen_d": 0.545657217502594,
+        "coverage_joyful": 0.658,
+        "cohen_d_joyful": 0.7256437540054321,
+        "coverage_excited": 0.642,
+        "cohen_d_excited": 0.7041167616844177,
+        "coverage_content": 0.6232464929859719,
+        "cohen_d_content": 0.545657217502594,
+        "discovery_auc": 0.6675635362667027,
+        "discovery_implicit_auc": 0.6377213628688306,
+        "discovery_joyful_auc": 0.6828305647840531,
+        "discovery_excited_auc": 0.677383388704319,
+        "discovery_content_auc": 0.6424263810012051,
+        "heldout_auc": 0.6993919413919414,
+        "heldout_implicit_auc": 0.6508012820512821,
+        "heldout_joyful_auc": 0.6963150183150184,
+        "heldout_excited_auc": 0.7048717948717949,
+        "heldout_content_auc": 0.696989010989011,
+        "natural_scale": 14.6875,
+        "rank_score": 0.704477716495501,
+        "rank_score_rank": 4,
+        "top_activating_examples": [
+          {
+            "activation": 37.75,
+            "text": "I really enjoy watching videos on YouTube. I feel the content is really good.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 37.5,
+            "text": "I got this pizza with 7 toppings and extra cheese. It's heaven.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.75,
+            "text": "I'm going on a long train ride tomorrow! From South Carolina to New York! I'm just going to see an old college friend for a couple of days, but I'm just as pumped about the train ride, because I've never been on one before! They seem so peaceful and charmingg.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "A couple weeks ago I went and got a free smoothie at Tropical Smoothie. I love their smoothies.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.75,
+            "text": "I got a new dog recently, he is the best. I am so thankful for him!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.5,
+            "text": "Visited my grandma, and she is still as loving as can be. Her cooking is wonderful.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.5,
+            "text": "My husband's grandmother came to visit us, we got to spend time together and go to the beach and aquarium with our kids. It was so nice.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.0,
+            "text": "Just watched season 2 of Luther last night on Netflix. Keeps you on the edge of your seat.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 32.5,
+            "text": "I am super hype for the new super smash bros, it looks so so good!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 32.25,
+            "text": "I remember when I went over to my friend's house because her dog just had puppies. It was so exciting and I was so happy! What an amazing thing to see!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 31.625,
+            "text": "I finally got the new video game I had been saving up for. I played it for two days straight. It was the best game I ever played!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.375,
+            "text": "At our last family Thanksgiving gathering, each of us took turns saying what we were thankful for. It brought us so much closer together as a family, and that evening I feel so content and warm. It was very special to all of us.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 31.375,
+            "text": "I am moving to new appartment. The new neighborhood is so nice. I am so happy that I found this appartment.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 31.375,
+            "text": "I went out with a friend last September, we had some sushi and a small chat, and I really liked that time we spent together.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.125,
+            "text": "I felt so much wonder and awe when I went to the beach. I was surrounded by such profound beauty, and I spent my entire day swimming, sunbathing, and laughing with my partner. It made me so happy.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 30.875,
+            "text": "There was a time a few years back where I was given a car. We only had one and needed a second and it was so helpful. I was blown away by someone's kindness.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.875,
+            "text": "Last December, I got my puppy, Churro. It was one of the best days of my life, and I am so happy I have her.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 30.875,
+            "text": "I was walking alone one night and a puppy started following me. It was so cute. I didnt know what to do.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.875,
+            "text": "I won a dollar playing the lottery yesterday. It was very nice.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.375,
+            "text": "I just got back from our beach vacation and it was so great! Going there and having a beachfront condo was exhilarating!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 14456,
+        "eligible": true,
+        "conservative_effect_rank": 4,
+        "coverage": 0.4609739826551034,
+        "cohen_d_all": 0.7704694271087646,
+        "cohen_d_implicit": 0.6534110307693481,
+        "conservative_cohen_d": 0.5739306807518005,
+        "coverage_joyful": 0.47,
+        "cohen_d_joyful": 0.7973809242248535,
+        "coverage_excited": 0.386,
+        "cohen_d_excited": 0.5739306807518005,
+        "coverage_content": 0.5270541082164328,
+        "cohen_d_content": 0.9360176920890808,
+        "discovery_auc": 0.6779130716158501,
+        "discovery_implicit_auc": 0.6464402752083271,
+        "discovery_joyful_auc": 0.6829561461794019,
+        "discovery_excited_auc": 0.6354186046511628,
+        "discovery_content_auc": 0.7154395169075692,
+        "heldout_auc": 0.7036727716727718,
+        "heldout_implicit_auc": 0.6625000000000001,
+        "heldout_joyful_auc": 0.6892747252747253,
+        "heldout_excited_auc": 0.6597509157509157,
+        "heldout_content_auc": 0.7619926739926739,
+        "natural_scale": 8.625,
+        "rank_score": 0.7032099118127478,
+        "rank_score_rank": 5,
+        "top_activating_examples": [
+          {
+            "activation": 29.375,
+            "text": "I had a very nice walk with my dog. It did not pull on the leash at all and I feel very relaxed.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.625,
+            "text": "My credit score has always been pretty awful since I made some mistakes when I was 18. Its starting to recover and it makes me feel so good!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.25,
+            "text": "Last night my new dog finally played! She was so starved and abused but she is so young! I didn't think she knew how to play or was just very docile but she took of running with my boxer when he ran and even mouthed him in play!",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.0,
+            "text": "I have a wonderful husband and two sweet kids. I'm feeling so much better from a horrible autoimmune flare. Life is good!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 27.625,
+            "text": "My husband and I have been able to finally get a bit of savings and financial security. I'm so appreciative that we can have that, as many can't.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 27.625,
+            "text": "I think my life is going great now compared to before.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 27.5,
+            "text": "The week has been going better. No big upsets, no drama. I hope it continues",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.5,
+            "text": "I have a wonderful family and my health that has been horrible, is finally turning around with my hard work. I am happy with life.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 26.125,
+            "text": "Moving my grandmother to an assisted living facility from her independent life has been such a transition for the whole family. Seniors can be stubborn and its been stressful to help her feel at home there and not hate it. Yesterday after visiting her however, she actually is looking more happy to be there finally.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 25.625,
+            "text": "I felt really happy last night when my abused dog started running around and playing! I didn't think she was capable of it.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 25.25,
+            "text": "The abused dog I took in is finally RUNNING and playing. I didn't think she had it in her. It is so nice to see!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.125,
+            "text": "I was able sort out some communication problems that I had with my manager. I can finaly enjoy my job with peaceful mind.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 24.75,
+            "text": "I felt very happy last night when my new dog was running around playing. I didn't think she knew how to play and would always be stuck to my leg and worried.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 23.875,
+            "text": "I'm so glad I'm able to pay my bills now.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 23.875,
+            "text": "Somewhat happier today because my bank account was in the negative but I wasn't charged a fee. I was able to settle it quickly today. Phew!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 23.75,
+            "text": "I'm finally able to afford decent health insurance for once in my life. Not only does it feel good to know I'm covered for some unexpected bad stuff, but I can actually go to the dentist and optometrist and keep up with my teeth/eye health for once.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 23.375,
+            "text": "I feel like everything is falling into place for me. I am so happy",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 23.25,
+            "text": "I am feeling happy I can afford what I need for the past few months. It's nice to be able to get something if you need it.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "Doing pretty good at work today. Feeling like things are going my way.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 22.375,
+            "text": "I'm going camping next weekend. It's finally stopped raining.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 9355,
+        "eligible": true,
+        "conservative_effect_rank": 7,
+        "coverage": 0.580386924616411,
+        "cohen_d_all": 0.6881662011146545,
+        "cohen_d_implicit": 0.5326199531555176,
+        "conservative_cohen_d": 0.5326199531555176,
+        "coverage_joyful": 0.582,
+        "cohen_d_joyful": 0.7368704080581665,
+        "coverage_excited": 0.654,
+        "cohen_d_excited": 0.7747825384140015,
+        "coverage_content": 0.5050100200400801,
+        "cohen_d_content": 0.5604451894760132,
+        "discovery_auc": 0.6737477255047107,
+        "discovery_implicit_auc": 0.6347187379935362,
+        "discovery_joyful_auc": 0.6817308970099668,
+        "discovery_excited_auc": 0.7068591362126245,
+        "discovery_content_auc": 0.6325707894193703,
+        "heldout_auc": 0.6928669108669108,
+        "heldout_implicit_auc": 0.6267246642246642,
+        "heldout_joyful_auc": 0.6856117216117217,
+        "heldout_excited_auc": 0.7071428571428571,
+        "heldout_content_auc": 0.6858461538461539,
+        "natural_scale": 10.125,
+        "rank_score": 0.6999455619698414,
+        "rank_score_rank": 6,
+        "top_activating_examples": [
+          {
+            "activation": 46.0,
+            "text": "Just relaxing here with a cold Dr. Pepper after a long day of work and a hot shower. It doesn't get much better than feeling the air conditioner breeze flowing on your clean body, feeling accomplished.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 45.5,
+            "text": "The birth of my first child was an amazing thing. Seeing that little boy being brought into the world left me with such a feeling of happiness and wonder.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 42.75,
+            "text": "After living in my home for 19 years, I'm remodeling my kitchen! It's so much fun to pick everything out!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 40.5,
+            "text": "Going to an amusement park later in the week, before college semester starts back up. A little scared to get on roller coasters since I don't like heights, but kind of pumped to feel the adrenaline rush and feeling of accomplishment after doing something scary",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 38.25,
+            "text": "No matter how sad or hopeless I feel at times, there's no better feeling than the euphoria of unexpected cash coming your way...either from hard work or good luck, I'll take it",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 37.75,
+            "text": "My favorite time of year is the holidays. I love getting together with my family and talking about our lives. It is such a merry time.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 37.75,
+            "text": "very recently i got back into cooking. i've always loved it and it makes me so happy. i recently made some jerk chick philly cheesesteaks and seeing an idea come to life right in front of my eyes was so exhilarating.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "When I was accepted to college, I got to travel there and search for an apartment. My family and I took a plane there and I was ecstatic. I love riding in planes and going to see my college just made it more fun and interesting.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 35.5,
+            "text": "I'm usually at my calmest and happiest when I'm sitting on my porch with a good book and a glass of wine. It's a lovely feeling to end the day with.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 35.0,
+            "text": "I have felt some of the best moments of pure happiness seeing someone I love getting something they want. A job, and acceptance to college, any kind of goal.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "There's nothing like being in your house after all your relatives have left after coming over for a long weekend visit. It's nice to see them, but once the frenetic energy is done with and you can kick your feet up... it's rewarding.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "I was sitting at work looking over expense reports. I felt very calm while doing this because I enjoy working with numbers.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "I am the happiest in my life when I am at the ocean. There is just something so special about nature at the ocean for me.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.75,
+            "text": "The day my first grandson was born was so happy for me. My heart swelled to look at the tiny person who was the newest member of our family. I was over the moon.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 33.25,
+            "text": "I love what I do because it's about both inspiring and empowering people to be their best and to excell at their jobs.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.0,
+            "text": "I felt good and normal going to my brothers wedding. It just felt nice to know he was going to be happy",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "I love waking up late on the weekends and just feeling like everything's great!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 32.0,
+            "text": "I had been planning a trip to Europe for months and finally got all my tickets and hostel reservations. It was such a rush to realize it was actually going to happen.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.0,
+            "text": "I'm so ready for fall to come around, I love layering and scarves",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.5,
+            "text": "I finished my first 60 mile running week this Sunday. It felt really great to just sit around doing nothing after a long week of exercise.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 13121,
+        "eligible": true,
+        "conservative_effect_rank": 8,
+        "coverage": 0.6771180787191461,
+        "cohen_d_all": 0.5646588206291199,
+        "cohen_d_implicit": 0.6102995872497559,
+        "conservative_cohen_d": 0.4964630603790283,
+        "coverage_joyful": 0.658,
+        "cohen_d_joyful": 0.4964630603790283,
+        "coverage_excited": 0.728,
+        "cohen_d_excited": 0.6408894658088684,
+        "coverage_content": 0.6452905811623246,
+        "cohen_d_content": 0.5633630156517029,
+        "discovery_auc": 0.6500468751038897,
+        "discovery_implicit_auc": 0.6606291306270966,
+        "discovery_joyful_auc": 0.6319521594684385,
+        "discovery_excited_auc": 0.6762897009966776,
+        "discovery_content_auc": 0.6418824359682821,
+        "heldout_auc": 0.6431111111111111,
+        "heldout_implicit_auc": 0.6373397435897435,
+        "heldout_joyful_auc": 0.6363223443223442,
+        "heldout_excited_auc": 0.6540732600732599,
+        "heldout_content_auc": 0.6389377289377288,
+        "natural_scale": 10.25,
+        "rank_score": 0.6969568469788275,
+        "rank_score_rank": 7,
+        "top_activating_examples": [
+          {
+            "activation": 39.75,
+            "text": "Today has been uneventful but, I got a lot of errands done.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 32.5,
+            "text": "I've had family visiting for the past couple of days, some cousins and an uncle and aunt that I haven't seen a long time. It's always great to be reunited with family, especially after you get over that first initial weird social hump of feeling each other out after not having spoken for a long time. It's crazy to see how much the younger cousins have physically changed! Anyway, it's been a blast playing games and catching up with them.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.75,
+            "text": "Pretty laid back day at my house, got all my errands ran and now I'm just chilling.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.75,
+            "text": "Tomorrow should be fun. We are going hiking and kayaking",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.0,
+            "text": "My mother has been visiting for the last week. We have been doing a lot of talking and laughing.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.5,
+            "text": "I got off work at 10am today! Time to head to the beach.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.5,
+            "text": "Today I felt really happy that I was getting some work done. It's been a very busy past couple weeks. I also have a new job that I'm working on.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 30.25,
+            "text": "Just finished eating dinner. We had red beans and rice with sausage. I'm as full as a tick!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 29.25,
+            "text": "I got to relax today and sleep. I was off of work",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 29.25,
+            "text": "I finally got some food today. So happy.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 29.0,
+            "text": "My wife got the flu yesterday. I ended up staying home to make sure she was ok.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.75,
+            "text": "Got a lot done this week, made good money, got things I needed, some I wanted and still saved up! No big upsets, it's been a good week!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.75,
+            "text": "I was able to go buy a dog bed today and a few others things I needed/wanted. I love that! I haven't always been able to do that.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.25,
+            "text": "It's been a great week! I got a promotion at work and my husband has been so caring!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.0,
+            "text": "I just finished two college classes that I have been taking this summer! I am glad to be done.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 27.0,
+            "text": "I am pumped for this weekend. I am going to the lake for a 3 day weekend.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.5,
+            "text": "I am really happy I had enough money to correct a bank mistake today. I normally wouldn't have $200 extra dollars sitting around. So it was good!",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.5,
+            "text": "I watched my daughter be born this morning. It was one of the best days of my life!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.25,
+            "text": "It has been a wonderful Monday! I found out I got a pay raise and we are planing our holiday vacation.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.25,
+            "text": "I arrived in San Diego yesterday and got to read a book under a palm tree. It felt really nice.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 6718,
+        "eligible": true,
+        "conservative_effect_rank": 5,
+        "coverage": 0.5350233488992662,
+        "cohen_d_all": 0.8094633221626282,
+        "cohen_d_implicit": 0.622319757938385,
+        "conservative_cohen_d": 0.5679842233657837,
+        "coverage_joyful": 0.65,
+        "cohen_d_joyful": 1.1122033596038818,
+        "coverage_excited": 0.536,
+        "cohen_d_excited": 0.7564061880111694,
+        "coverage_content": 0.4188376753507014,
+        "cohen_d_content": 0.5679842233657837,
+        "discovery_auc": 0.6920245833878177,
+        "discovery_implicit_auc": 0.6408347297153317,
+        "discovery_joyful_auc": 0.7622644518272425,
+        "discovery_excited_auc": 0.686043853820598,
+        "discovery_content_auc": 0.6276366686862096,
+        "heldout_auc": 0.7095238095238096,
+        "heldout_implicit_auc": 0.6568185286935287,
+        "heldout_joyful_auc": 0.7493626373626373,
+        "heldout_excited_auc": 0.7368937728937729,
+        "heldout_content_auc": 0.6423150183150184,
+        "natural_scale": 10.5,
+        "rank_score": 0.6968391270249914,
+        "rank_score_rank": 8,
+        "top_activating_examples": [
+          {
+            "activation": 40.75,
+            "text": "I just accomplished one of my biggest dreams and I feel like things are just perfect right now.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 38.75,
+            "text": "I just got an A on my paper. It feels slick",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 37.0,
+            "text": "I've played the lottery every week for years. This week I got the winning ticket. I'm so happy!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I just found out I got into medical school. I have worked so hard for years just to be able to get accepted",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 35.75,
+            "text": "I am so happy, my son has just got into med school!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.5,
+            "text": "just heard I got the promotion I was hoping for. I think I am going to burst.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.75,
+            "text": "I just won the best write in my state for the third time. I am feeling on top of the world",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.25,
+            "text": "I watched the election results come in until early in the morning. As the tally rose towards that magic 270 a single tear runs down my cheek. We really did it. We're going to make america great again",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.25,
+            "text": "My son placed third in his jiu-jitsu competition. I was so happy for him.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "I just finished my first Iron Man last weekend. I'm so happy!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "I had some financial problems. I finally paid all my debts. It is a big relief. I am so happy.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 33.5,
+            "text": "My daughter just got accepted into Headstart. I'm thrilled.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 33.0,
+            "text": "I got accepted to Harvard, I am so happy.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 32.75,
+            "text": "I just found out my sister is pregnant! I'm going to be an aunt again! They've been trying for a while so this is great news.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 32.5,
+            "text": "I am getting a promotion in the coming month. All the hard work paid off!!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 32.5,
+            "text": "I'm getting a promotion at work! I've been working toward it for a while now, and it has paid off!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.875,
+            "text": "I found out my sister is pregnant today! She's been trying for years.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.625,
+            "text": "I just won $300 dollars on a scratch off ticket. It feel really good. I can pay some bills with it.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.375,
+            "text": "I tried so hard for that exam, when i found out i got first! it was overwhelming!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.125,
+            "text": "My son graduated from high school this year. He should have graduated last year, but didn't have the motivation to do what was needed. I was so glad to get that diploma in the mail.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 11153,
+        "eligible": true,
+        "conservative_effect_rank": 14,
+        "coverage": 0.5663775850567044,
+        "cohen_d_all": 0.7539017796516418,
+        "cohen_d_implicit": 0.4094778299331665,
+        "conservative_cohen_d": 0.4094778299331665,
+        "coverage_joyful": 0.674,
+        "cohen_d_joyful": 1.0613155364990234,
+        "coverage_excited": 0.514,
+        "cohen_d_excited": 0.6075241565704346,
+        "coverage_content": 0.5110220440881763,
+        "cohen_d_content": 0.5920140147209167,
+        "discovery_auc": 0.7001072697412893,
+        "discovery_implicit_auc": 0.6211197530744619,
+        "discovery_joyful_auc": 0.765810631229236,
+        "discovery_excited_auc": 0.668975415282392,
+        "discovery_content_auc": 0.6654664811350276,
+        "heldout_auc": 0.7073748473748475,
+        "heldout_implicit_auc": 0.6171588827838828,
+        "heldout_joyful_auc": 0.7283443223443223,
+        "heldout_excited_auc": 0.6974212454212454,
+        "heldout_content_auc": 0.6963589743589743,
+        "natural_scale": 11.8125,
+        "rank_score": 0.6911304800485908,
+        "rank_score_rank": 9,
+        "top_activating_examples": [
+          {
+            "activation": 46.75,
+            "text": "Thank goodness August is here. July was too hot for me to stand",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 45.25,
+            "text": "I was relieved to find my sack lunch.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 43.25,
+            "text": "I was so elated to find out that my dog could speak to me! Even better, he has an adorable Cockney accent. We've been chatting about philosophy for three days now.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 38.5,
+            "text": "I was pretty happy when I graduated high school. I felt like I completed something",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 37.75,
+            "text": "I got a promotion last month, thank god.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 36.75,
+            "text": "I learned about Neurofeedback today. I feel somewhat happy about learning about it. Renewed.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.5,
+            "text": "I was happy to see lebron leave the cavs for the lakers",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.25,
+            "text": "was happy to see my dog return home!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I was happy when my brother moved home. I missed him",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I was happy when I got to go asheville last weekend. It was just calm",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I was happy when my dog returned!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I was happy when i found my dog",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I was happy when with my friends when we had our sentforth programme",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "I was happy when i woke up and it was friday!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.5,
+            "text": "I was pretty happy to find out I was having a girl",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.25,
+            "text": "My son graduated from high school this year. He should have graduated last year, but didn't have the motivation to do what was needed. I was so glad to get that diploma in the mail.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 35.0,
+            "text": "It's always nice to know that I have such good friends to help me when I feel down. It's truly wonderful to know you have people to turn to",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.75,
+            "text": "I was very happy when I found that I am getting a bonus from my employer.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 34.5,
+            "text": "I am happy cause I fixed my gum.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 33.5,
+            "text": "i was happy to see that i was able to get a new pet the other day",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 16327,
+        "eligible": true,
+        "conservative_effect_rank": 12,
+        "coverage": 1.0,
+        "cohen_d_all": 0.7280745506286621,
+        "cohen_d_implicit": 0.704861581325531,
+        "conservative_cohen_d": 0.41927510499954224,
+        "coverage_joyful": 1.0,
+        "cohen_d_joyful": 0.7699272036552429,
+        "coverage_excited": 1.0,
+        "cohen_d_excited": 1.026848554611206,
+        "coverage_content": 1.0,
+        "cohen_d_content": 0.41927510499954224,
+        "discovery_auc": 0.6990995104155815,
+        "discovery_implicit_auc": 0.695236803786536,
+        "discovery_joyful_auc": 0.7058338870431893,
+        "discovery_excited_auc": 0.7704950166112957,
+        "discovery_content_auc": 0.6208130546807902,
+        "heldout_auc": 0.6738144078144078,
+        "heldout_implicit_auc": 0.6776327838827839,
+        "heldout_joyful_auc": 0.6553479853479853,
+        "heldout_excited_auc": 0.7408791208791209,
+        "heldout_content_auc": 0.6252161172161173,
+        "natural_scale": 65.0,
+        "rank_score": 0.6907230057223483,
+        "rank_score_rank": 10,
+        "top_activating_examples": [
+          {
+            "activation": 107.5,
+            "text": "My 50th birthday just passed. I was trying to ignore it but my family ended up having a surprise party for me. It was such a happy night. Made me realize I should embrace my age and not ignore it.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 103.0,
+            "text": "My son recently got married, and I gained a new daughter in law. The wedding was beautiful, everyone had a great time !",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 102.5,
+            "text": "I had to dog-watch my neighbors dogs this weekend. It was really easy, and I stayed at her house during the day since she was out of town, and it was peaceful and let me get work done. When she came back, she gave me $100! I would have done it for free. She's too nice.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 101.5,
+            "text": "When my brother got married back in April. I was a bridesmaid and it was a beautiful ceremony. At the reception we all danced and had fun.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 100.0,
+            "text": "I am going to Chicago in a couple weeks. I havent been in a while so I'm really looking forward to it.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 100.0,
+            "text": "I finally got to see my favorite baseball time team play in person. It was a dream come true.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 98.5,
+            "text": "I'm so ready to go camping this weekend! I'm all packed up and we are heading to the beach for the weekend.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 98.0,
+            "text": "My husband and I had been wanting a camper for about 1 year. Last week we finally found the camper of our dreams and now have our first camping trip planned.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 97.5,
+            "text": "My best friend from childhood came into town last week. We were supposed to get together for dinner one night, but she bailed at the last minute.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 97.5,
+            "text": "My family and I went to the county fair last night and had a wonderful time.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 97.0,
+            "text": "I get so happy when I get to visit my family over the holidays. It is my favorite time of year!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 97.0,
+            "text": "I had been planning a trip to Europe for months and finally got all my tickets and hostel reservations. It was such a rush to realize it was actually going to happen.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 96.5,
+            "text": "I watched my daughter be born this morning. It was one of the best days of my life!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 96.0,
+            "text": "I was really excited when my daughter came home from college to visit me.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 95.0,
+            "text": "We just finished a camping trip, and spent some great quality time together. We did some fishing, played board games, and had campfires almost every night.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 94.5,
+            "text": "I signed up for a cruise! I haven't been on one in so many years and am really looking forward to it.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 94.0,
+            "text": "Recently I've been driving my friend's mom to and from the hospital for her chemo treatments. My friend is in the military and she can't drive so it's about the only way for her to get there.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 94.0,
+            "text": "I am so full of anticipation! School starts on Monday!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 94.0,
+            "text": "I was really excited to see all my daughter's hard work pay off at the recital",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 93.5,
+            "text": "I cannot wait for Christmas! It is such a happy time!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 6751,
+        "eligible": true,
+        "conservative_effect_rank": 13,
+        "coverage": 1.0,
+        "cohen_d_all": 0.4589724838733673,
+        "cohen_d_implicit": 0.4568656384944916,
+        "conservative_cohen_d": 0.417568176984787,
+        "coverage_joyful": 1.0,
+        "cohen_d_joyful": 0.44262856245040894,
+        "coverage_excited": 1.0,
+        "cohen_d_excited": 0.5164793729782104,
+        "coverage_content": 1.0,
+        "cohen_d_content": 0.417568176984787,
+        "discovery_auc": 0.6339225042608694,
+        "discovery_implicit_auc": 0.6336384387642101,
+        "discovery_joyful_auc": 0.6285428571428571,
+        "discovery_excited_auc": 0.6483853820598007,
+        "discovery_content_auc": 0.6248210707128543,
+        "heldout_auc": 0.6247057387057386,
+        "heldout_implicit_auc": 0.6232905982905983,
+        "heldout_joyful_auc": 0.5981391941391941,
+        "heldout_excited_auc": 0.6605274725274726,
+        "heldout_content_auc": 0.6154505494505494,
+        "natural_scale": 72.0,
+        "rank_score": 0.6882133211389413,
+        "rank_score_rank": 11,
+        "top_activating_examples": [
+          {
+            "activation": 124.5,
+            "text": "I am so looking forward to the next Star Wars movie. I can't get enough of them. Star Wars is my favorite movies of all time!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 116.5,
+            "text": "I am going camping tomorrow, it's one of my favourite things to do in the summer!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 115.5,
+            "text": "Just found out I'm not getting a promotion at work that I was up for. I'm kind of bummed to not be moving up in the company that I work for, as I really like everyone here, and the company itself, and what we do. But I'm satisfied knowing that someone more deserving than me got it, and that they still see me as worthy in the long run, and that I still get to enjoy my current situation.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 114.5,
+            "text": "As a nursing student and future nurse I will be in a professional where I will help people while they are hurting the most.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 114.0,
+            "text": "i cant wait for the next starwars movie, there my favorite movies of all time",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 112.0,
+            "text": "When my son was born, it seemed like my life was complete. I have everything now that I could ever want.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 110.5,
+            "text": "I'm happy that it is almost Fall, my favorite time of year.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 110.0,
+            "text": "I was in a huge hurry and needed to get through the checkout. If I didn't get through I couldn't make it to the bank before it closed.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 109.5,
+            "text": "I spilled some sweet and sour sauce on my friends couch while I was eating some chicken nuggets.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 109.5,
+            "text": "I got a speeding ticket today and did not realize I was speeding. The look on the policeman's face though, was as if I robbed a bank !",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 109.0,
+            "text": "A new skating rink is being built. Should be done in time for Winter skating!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 108.5,
+            "text": "My parents gave me a car for graduating from college. It makes my life so much easier.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 108.5,
+            "text": "My brother is starting his first semester at the college I wanted to go to but could never get into. I am very happy for him. He was scared to accept the offer at first because he thought he'd hurt my feelings. I told him that was crazy!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 108.0,
+            "text": "I once stole 50 bucks from my brothers wallet. End up he was using it for a date and the girl didn't ever call him back.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 107.5,
+            "text": "My friend has promised me that he would drive me to the airport for my flight. He never showed up and I missed my flight.",
+            "source_label": "angry",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 107.5,
+            "text": "I'm going water skiing next weekend. It's going to be such a breather from all this heat we've been getting lately.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 107.0,
+            "text": "I had bought several raffle tickets at work to win a gift card to a restaurant, but I lost out by one number! I felt kinda sad over it.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 107.0,
+            "text": "lifes just awesome right now , im happy",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 106.5,
+            "text": "My roommate drank all my milk. I wanted to have cereal for breakfast.",
+            "source_label": "angry",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 106.5,
+            "text": "I finally saved up enough money to take a trip to Alaska to see the northern lights.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 8940,
+        "eligible": true,
+        "conservative_effect_rank": 10,
+        "coverage": 0.7598398932621748,
+        "cohen_d_all": 0.512944757938385,
+        "cohen_d_implicit": 0.46123674511909485,
+        "conservative_cohen_d": 0.42003434896469116,
+        "coverage_joyful": 0.756,
+        "cohen_d_joyful": 0.45747941732406616,
+        "coverage_excited": 0.716,
+        "cohen_d_excited": 0.42003434896469116,
+        "coverage_content": 0.8076152304609219,
+        "cohen_d_content": 0.6622646450996399,
+        "discovery_auc": 0.6430331184244646,
+        "discovery_implicit_auc": 0.6274197766434528,
+        "discovery_joyful_auc": 0.6272332225913622,
+        "discovery_excited_auc": 0.6209142857142858,
+        "discovery_content_auc": 0.6810278364037043,
+        "heldout_auc": 0.6393553113553113,
+        "heldout_implicit_auc": 0.618307387057387,
+        "heldout_joyful_auc": 0.6045567765567765,
+        "heldout_excited_auc": 0.6165787545787547,
+        "heldout_content_auc": 0.696930402930403,
+        "natural_scale": 12.0,
+        "rank_score": 0.6852175975567322,
+        "rank_score_rank": 12,
+        "top_activating_examples": [
+          {
+            "activation": 38.5,
+            "text": "It's been a peaceful night! I have a nice cold drink and watching my favouite show. Life is good.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 36.0,
+            "text": "Just walked my dog 2 miles and now we are just chilled out, relaxing on the couch. It's been a good day!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "Somewhat happier today because my bank account was in the negative but I wasn't charged a fee. I was able to settle it quickly today. Phew!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 33.75,
+            "text": "Just relaxing here with a cold Dr. Pepper after a long day of work and a hot shower. It doesn't get much better than feeling the air conditioner breeze flowing on your clean body, feeling accomplished.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.375,
+            "text": "Kicked my feet up at the park today and read a book. Life is good right now.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.375,
+            "text": "My husband comes home tomorrow from a month long business trip! I am so excited and cleaning the house and getting things all ready!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 30.875,
+            "text": "Yesterday, I was caught taking the bus without paying. I had to pay a fine. I felt so bad.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.875,
+            "text": "Even though I broke up with my ex I'm kind of thankful for the experience. I now am fully self-employed working from home and have full autonomy of time. And I have really hot chicks texting me nonstop it's kind of surreal",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.625,
+            "text": "I'm overly excited today because will be flying outside the country for the first time tomorrow.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 30.375,
+            "text": "Just me and my cat living the life.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.375,
+            "text": "Had a really good spaghetti dinner tonight. Just relaxing and getting some work done now. Feeling pretty accomplished today.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.125,
+            "text": "Gotta admit it hurt a lot to find out that my ex had moved on so quickly. But looking back it probably wasn't meant to be...and now I'm living my best life really",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.125,
+            "text": "I just had an amazing dinner and now am relaxing in my room. I feel very rested and at peace.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 29.875,
+            "text": "I've had family visiting for the past couple of days, some cousins and an uncle and aunt that I haven't seen a long time. It's always great to be reunited with family, especially after you get over that first initial weird social hump of feeling each other out after not having spoken for a long time. It's crazy to see how much the younger cousins have physically changed! Anyway, it's been a blast playing games and catching up with them.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 29.625,
+            "text": "I won a stuffed animal in the crane machine today! It was a cute one too!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 29.625,
+            "text": "it's monsoon season here where i live and I can hear the thunder rumbling, I hope we don't get flooded. I'm pretty scared.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 29.125,
+            "text": "My Vacation is coming up, looking forward to it. i am very happy getting these leaves",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 28.875,
+            "text": "I had to go to the DMV today to renew my license. It took 4 hours and I ended up having to use a sick day...Not happy!",
+            "source_label": "angry",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.625,
+            "text": "I finally got some food today. So happy.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 28.625,
+            "text": "I'm joyful that I get to see my wife for the first time in a week tomorrow. I missed her a lot.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 13911,
+        "eligible": true,
+        "conservative_effect_rank": 18,
+        "coverage": 1.0,
+        "cohen_d_all": 0.652948796749115,
+        "cohen_d_implicit": 0.7135518789291382,
+        "conservative_cohen_d": 0.37373679876327515,
+        "coverage_joyful": 1.0,
+        "cohen_d_joyful": 0.5769225358963013,
+        "coverage_excited": 1.0,
+        "cohen_d_excited": 1.0185009241104126,
+        "coverage_content": 1.0,
+        "cohen_d_content": 0.37373679876327515,
+        "discovery_auc": 0.6805376341702885,
+        "discovery_implicit_auc": 0.69545861059184,
+        "discovery_joyful_auc": 0.6620239202657806,
+        "discovery_excited_auc": 0.7671760797342192,
+        "discovery_content_auc": 0.6122763800025299,
+        "heldout_auc": 0.626014652014652,
+        "heldout_implicit_auc": 0.6283157814407814,
+        "heldout_joyful_auc": 0.5717948717948719,
+        "heldout_excited_auc": 0.7296190476190477,
+        "heldout_content_auc": 0.5766300366300366,
+        "natural_scale": 97.0,
+        "rank_score": 0.6803301434195588,
+        "rank_score_rank": 13,
+        "top_activating_examples": [
+          {
+            "activation": 159.0,
+            "text": "I will be taking a trip to SE Asia next week. I cant wait.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 154.0,
+            "text": "I recently changed jobs for a better opportunity with more pay. I'm very pleased with the new job, but I did feel bummed about leaving my former co-workers behind. We had a good time and I liked those kids.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 153.0,
+            "text": "I'm excited to start on a new website design tomorrow. Our company landed a big deal with a local car dealership!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 153.0,
+            "text": "Recently I've been driving my friend's mom to and from the hospital for her chemo treatments. My friend is in the military and she can't drive so it's about the only way for her to get there.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 151.0,
+            "text": "The new WoW expansion comes out today.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 150.0,
+            "text": "I'm going on a cruise to Alaska.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 150.0,
+            "text": "I will be travelling to Europe on September",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 147.0,
+            "text": "I'm so ready for fall to come around, I love layering and scarves",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 146.0,
+            "text": "I am going on a trip with my best friend next month. We are going to vegas! I cannot wait.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 145.0,
+            "text": "I can't wait for our next reunion. We are going on a cruise.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 142.0,
+            "text": "I am going on a cruise to the Bahamas next month. I have been waiting for this for so long. I cannot wait.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 141.0,
+            "text": "I am so ready for the Life Is Beautiful Music Festival.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 141.0,
+            "text": "Up extra early today, I couldn't sleep. I am starting a new job today.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 141.0,
+            "text": "I'm happy that it is almost Fall, my favorite time of year.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 141.0,
+            "text": "My favorite time of year is the holidays. I love getting together with my family and talking about our lives. It is such a merry time.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 140.0,
+            "text": "The new wow expansion just launched.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 140.0,
+            "text": "I am taking a trip to Disney World next month! My wife is going for the first time!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 140.0,
+            "text": "Just got my tickets for Halloween Horror Nights.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 139.0,
+            "text": "I am going on vacation to Disney World in 2 weeks. Im ready to go and cannot wait",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 139.0,
+            "text": "My girlfriend and I are going to San Diego this weekend! I am so hyped!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 14193,
+        "eligible": true,
+        "conservative_effect_rank": 16,
+        "coverage": 0.6677785190126752,
+        "cohen_d_all": 0.3980931341648102,
+        "cohen_d_implicit": 0.37854325771331787,
+        "conservative_cohen_d": 0.37854325771331787,
+        "coverage_joyful": 0.646,
+        "cohen_d_joyful": 0.3809202313423157,
+        "coverage_excited": 0.654,
+        "cohen_d_excited": 0.383588045835495,
+        "coverage_content": 0.7034068136272545,
+        "cohen_d_content": 0.4310815632343292,
+        "discovery_auc": 0.6064426117965689,
+        "discovery_implicit_auc": 0.600601816426618,
+        "discovery_joyful_auc": 0.5997920265780731,
+        "discovery_excited_auc": 0.6015242524916945,
+        "discovery_content_auc": 0.6180347405775006,
+        "heldout_auc": 0.6013479853479854,
+        "heldout_implicit_auc": 0.5734126984126984,
+        "heldout_joyful_auc": 0.586901098901099,
+        "heldout_excited_auc": 0.6209157509157508,
+        "heldout_content_auc": 0.5962271062271063,
+        "natural_scale": 7.9375,
+        "rank_score": 0.66043628775773,
+        "rank_score_rank": 14,
+        "top_activating_examples": [
+          {
+            "activation": 33.5,
+            "text": "I feel very blessed that I have been able to live around the world my whole life. Now I am settled in one place for awhile.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 31.125,
+            "text": "The rally is here and the weather is beautiful! Time to head out on the motorcycle.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.375,
+            "text": "Rally time; time to jump on the motorcycle and go cruising!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.625,
+            "text": "I am at a great point in my life right now.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.5,
+            "text": "my son had his wisdom teeth removed, and i took the opportunity to baby him a bit. he is 24",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 28.375,
+            "text": "I remember feeling so blissful after the births of my children. Such a sense of peace and relief and possiblity.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 27.5,
+            "text": "The anniversary of my father's death recently passed. It has been a process adjusting to things without him.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 27.375,
+            "text": "Recently we decided to rescue another kitten. We were so thrilled to be adding another furry member to our family and save a life.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 27.25,
+            "text": "I was thankful I got to go on mission trips in high school.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.75,
+            "text": "For the good things and those that are not so good, I must give thanks ... the good ones make me feel good, the others make me grow",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.5,
+            "text": "I love walking my dogs on these late summer mornings. It's still cool, the sun is shining, and I still have two more weeks off.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.25,
+            "text": "I sat in my kitchen the other night and just listened to the rain hit the window for an hour. I felt so happy and whole.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 25.625,
+            "text": "I ate some homemade ice cream the other day. What a wonderful treat.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.5,
+            "text": "Growing up, my mom always played a lot of Aretha Franklin. When I found out that she passed I was bewildered.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.25,
+            "text": "Moving my grandmother to an assisted living facility from her independent life has been such a transition for the whole family. Seniors can be stubborn and its been stressful to help her feel at home there and not hate it. Yesterday after visiting her however, she actually is looking more happy to be there finally.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 25.25,
+            "text": "I watched the election results come in until early in the morning. As the tally rose towards that magic 270 a single tear runs down my cheek. We really did it. We're going to make america great again",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.0,
+            "text": "I knew I was looking forward to the birth of my first daughter, but I wasn't expecting that feeling when I saw her for the first time.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.0,
+            "text": "Lately, my family and I have been very blessed. We have been going to a three week long revival, our major bills for the month are already paid, and we have all been healthy and happy. Life is pretty good right now.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 25.0,
+            "text": "I am so pleased with the way things are right now. I see no need to change anything.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 24.875,
+            "text": "Last weekend I took my daughter to Catalina for the first time. I was so elated to take her camping and see the experience through her eyes. I bought all of the items for smores and a cute pink coleman sleeping bag. I told her about campling and showed her a couple cartoons. I obesessed and planned out everything we would do.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 5399,
+        "eligible": true,
+        "conservative_effect_rank": 22,
+        "coverage": 1.0,
+        "cohen_d_all": 0.4089391529560089,
+        "cohen_d_implicit": 0.3422245383262634,
+        "conservative_cohen_d": 0.3422245383262634,
+        "coverage_joyful": 1.0,
+        "cohen_d_joyful": 0.34688600897789,
+        "coverage_excited": 1.0,
+        "cohen_d_excited": 0.5331748723983765,
+        "coverage_content": 1.0,
+        "cohen_d_content": 0.3464013636112213,
+        "discovery_auc": 0.618554784030993,
+        "discovery_implicit_auc": 0.5995699466307642,
+        "discovery_joyful_auc": 0.5983740863787375,
+        "discovery_excited_auc": 0.6563754152823921,
+        "discovery_content_auc": 0.6008794998635144,
+        "heldout_auc": 0.5988278388278389,
+        "heldout_implicit_auc": 0.5879464285714286,
+        "heldout_joyful_auc": 0.5746300366300366,
+        "heldout_excited_auc": 0.6405421245421246,
+        "heldout_content_auc": 0.5813113553113552,
+        "natural_scale": 47.25,
+        "rank_score": 0.6602295647818368,
+        "rank_score_rank": 15,
+        "top_activating_examples": [
+          {
+            "activation": 79.5,
+            "text": "This week end, I am moving in my house that I bought. I am so happy.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 79.5,
+            "text": "This week my work offered to let me work an extra day. I thought great overtime. Nope they plan to send me home every other day to even it out.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 79.5,
+            "text": "This week my wife and I are going to buy our first brand new car. We have been saving and working on our credit so we could get a good interest rate.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 79.5,
+            "text": "This week, my manager told me bad comments about my work performance. It made me feel bad.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 76.5,
+            "text": "This is the last week before kids go back to school. They're currently in a short camp and I finally get some peace and quiet at home.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 73.0,
+            "text": "We are leaving for vacation tomorrow. We are going to Florida for 10 days.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 73.0,
+            "text": "We are having a birthday party for my mom this weekend. I am excited to see all of my family. I think it will be a fun time",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 73.0,
+            "text": "We are going to be having our 7th grandbaby soon! I am so happy!!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 73.0,
+            "text": "We are going to disney world for christmas!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 72.0,
+            "text": "This is going to sound silly, but yesterday I realized when I went to change a diaper that I could not find a single baby wipe in the house. I didn't know what to do and did not have a car until my fiance gets home from work later that night. I was scared I wouldn't have a way to like.. change diapers!",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 69.0,
+            "text": "We have a fun weekend planned. I'm happy the kids get to go to the water park this weekend. It's their favorite.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 69.0,
+            "text": "For this month, i have reached my goal for the amount to save. I am thankful for finding willpower to cut on unnecessary spending",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 69.0,
+            "text": "For this year, I received my vacation benefits for 10 days. It was good time spent",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 68.5,
+            "text": "For the first time in my life I am financially secure.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 68.5,
+            "text": "For the good things and those that are not so good, I must give thanks ... the good ones make me feel good, the others make me grow",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 68.5,
+            "text": "For the last three nights I've been hearing really creepy sounds just outside of my bedroom window. I'm not sure what it is but it's scaring me.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 68.0,
+            "text": "I am a drug addict. I robbed a charity organization last week. I feel bad about it.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 68.0,
+            "text": "I am a bit afraid to call AC on my neighbor as I don't want him to retaliate. But I have too for the dogs sake.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 68.0,
+            "text": "I am a bit scared for the weekend to come. I don't know what will happen between me and another person and I hate the unknown.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 68.0,
+            "text": "I am a little down because my computer stopped working yesterday.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 12090,
+        "eligible": true,
+        "conservative_effect_rank": 11,
+        "coverage": 0.4603068712474983,
+        "cohen_d_all": 0.6308016777038574,
+        "cohen_d_implicit": 0.6867889165878296,
+        "conservative_cohen_d": 0.4197691082954407,
+        "coverage_joyful": 0.356,
+        "cohen_d_joyful": 0.4197691082954407,
+        "coverage_excited": 0.39,
+        "cohen_d_excited": 0.4405796527862549,
+        "coverage_content": 0.6352705410821643,
+        "cohen_d_content": 0.9948124885559082,
+        "discovery_auc": 0.6508924000274823,
+        "discovery_implicit_auc": 0.6657713678732052,
+        "discovery_joyful_auc": 0.5928644518272425,
+        "discovery_excited_auc": 0.6086239202657808,
+        "discovery_content_auc": 0.7513898228350387,
+        "heldout_auc": 0.67202442002442,
+        "heldout_implicit_auc": 0.6854357448107447,
+        "heldout_joyful_auc": 0.6125421245421245,
+        "heldout_excited_auc": 0.5992893772893773,
+        "heldout_content_auc": 0.8042417582417583,
+        "natural_scale": 11.0,
+        "rank_score": 0.6579536918299906,
+        "rank_score_rank": 16,
+        "top_activating_examples": [
+          {
+            "activation": 56.5,
+            "text": "I got to go to the park and read a book under a tree. Felt nice after a long week of work.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 55.0,
+            "text": "When we are camping, I take a hammock with me. I love swaying in the hammock and reading a good book!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 54.5,
+            "text": "I had a pretty relaxing afternoon. Sat outside and enjoyed the breeze while watching my kids play.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 54.0,
+            "text": "I spring cleaned my whole house. Then I sat and enjoyed a book.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 53.75,
+            "text": "I had a nice night in and just relaxed.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 53.0,
+            "text": "I sat on the porch last night and relaxed. I was okay with that",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 52.5,
+            "text": "I felt pretty nice today. Just sat on the patio and relaxed",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 52.0,
+            "text": "I'm drinking a great cup of coffee and I don't have any major plans for the day other than relaxing.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 52.0,
+            "text": "I spent my afternoon in a hammock reading my favorite book. The sun was shining and I couldn't be happier.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 52.0,
+            "text": "Been having a good day, relaxing on my couch watching Netflix. I got a nice cup of hot chocolate and my cat curled up in my lap.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 51.25,
+            "text": "We recently spent a weekend at the local lake. Work had been hectic, and family had been challenging. It was so peaceful to just sit on the sand and enjoy the sun.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 51.25,
+            "text": "Going to the lake after work. Can't wait to see all the dogs and just relax.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 50.75,
+            "text": "Had a really good spaghetti dinner tonight. Just relaxing and getting some work done now. Feeling pretty accomplished today.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 50.5,
+            "text": "Recently I was sitting outside relaxing with a drink in my backyard and just felt quite at peace with things and enjoyed the nice weather.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 49.75,
+            "text": "Right now I have my cat at my side, a movie on TV, and rum in my glass. Can't ask for anything more.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 49.25,
+            "text": "I got all of my housework done. For the rest of the day I am satisfied to just relax and do whatever I want.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 49.0,
+            "text": "This summer i have been able to have my daughter stay with me. While we have not done anything particularly special it has been a great time for use and we are both fairly happy. We enjoy just spending time together and relaxing. We have been able to bond a great deal these past few months!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 48.5,
+            "text": "It's been a peaceful night! I have a nice cold drink and watching my favouite show. Life is good.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 48.25,
+            "text": "I spent the other weekend cleaning my apartment, it felt so good at the end of the day to sit back and watch TV in my nice, clean apartment.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 47.75,
+            "text": "Sometimes I love just sitting around doing nothing.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 11700,
+        "eligible": true,
+        "conservative_effect_rank": 9,
+        "coverage": 0.3315543695797198,
+        "cohen_d_all": 0.4972954988479614,
+        "cohen_d_implicit": 0.4900818169116974,
+        "conservative_cohen_d": 0.44217362999916077,
+        "coverage_joyful": 0.298,
+        "cohen_d_joyful": 0.44217362999916077,
+        "coverage_excited": 0.376,
+        "cohen_d_excited": 0.5555717945098877,
+        "coverage_content": 0.32064128256513025,
+        "cohen_d_content": 0.5030182600021362,
+        "discovery_auc": 0.6113154062841452,
+        "discovery_implicit_auc": 0.6080076453932309,
+        "discovery_joyful_auc": 0.595504318936877,
+        "discovery_excited_auc": 0.6309182724252491,
+        "discovery_content_auc": 0.6075160287352112,
+        "heldout_auc": 0.6465665445665446,
+        "heldout_implicit_auc": 0.6269993894993896,
+        "heldout_joyful_auc": 0.6382417582417583,
+        "heldout_excited_auc": 0.6298241758241758,
+        "heldout_content_auc": 0.6716336996336997,
+        "natural_scale": 7.71875,
+        "rank_score": 0.6566358595652916,
+        "rank_score_rank": 17,
+        "top_activating_examples": [
+          {
+            "activation": 44.0,
+            "text": "I got this pizza with 7 toppings and extra cheese. It's heaven.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 42.0,
+            "text": "I took my girlfriend to my school dance the other night. It was truly a magical experience.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 34.0,
+            "text": "When I was sitting on the beach I was in heaven",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 30.875,
+            "text": "At our last family Thanksgiving gathering, each of us took turns saying what we were thankful for. It brought us so much closer together as a family, and that evening I feel so content and warm. It was very special to all of us.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 28.25,
+            "text": "My upstairs neighbors are away for the weekend and I am as happy as a clam. No thumping, screeching, playing loud video games. Heaven!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 27.5,
+            "text": "I am at my most zen when I'm alone. I'm not a loner but I feel that having peace of mind all to myself is a gift that most people take for granted.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.875,
+            "text": "I am the happiest in my life when I am at the ocean. There is just something so special about nature at the ocean for me.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 26.5,
+            "text": "We went to a Ski Resort with my friends this Spring Break in Colorado. It was very special for me",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.625,
+            "text": "I can't wait for the final season of game of thrones. IT is the best show ever",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.5,
+            "text": "We went over my grandma's house for the holidays. I loved being with my relatives. The cooking was divine. I felt so happy.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 24.0,
+            "text": "My nephew was so sweet and adorable. I just wanted to hug him and spend time with him. He was the first child in the family for a long time, so it was special.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 23.75,
+            "text": "I went to the Grand Canyon for the first time during winter. It was breathtaking.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 22.25,
+            "text": "I had finally got to see a baseball game at a stadium. It was amazing how high up we were in the stadium and yet could still see everything perfectly.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.75,
+            "text": "i cant wait for the next starwars movie, there my favorite movies of all time",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.5,
+            "text": "I spent this evening with my family. This makes me realize how blessed I am.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.375,
+            "text": "We went out to dinner the other night. I was expecting it to be awful but it turned out to be okay. Nothing super special or exciting but just okay.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.375,
+            "text": "I can't wait for the new evil Spiderman movie called Venom. It's going to be sick!!!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.0,
+            "text": "I ate some homemade ice cream the other day. What a wonderful treat.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.0,
+            "text": "I am happy with my friend, she has been an angel, she has not left me alone in difficult times",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 20.875,
+            "text": "I just made a delicious pie, i let it cool to room temperature and ate it with ice cream it was perfect.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 10457,
+        "eligible": true,
+        "conservative_effect_rank": 24,
+        "coverage": 0.71447631754503,
+        "cohen_d_all": 0.41198867559432983,
+        "cohen_d_implicit": 0.33488428592681885,
+        "conservative_cohen_d": 0.32722246646881104,
+        "coverage_joyful": 0.696,
+        "cohen_d_joyful": 0.35840684175491333,
+        "coverage_excited": 0.658,
+        "cohen_d_excited": 0.32722246646881104,
+        "coverage_content": 0.7895791583166333,
+        "cohen_d_content": 0.5632033944129944,
+        "discovery_auc": 0.6146392168422359,
+        "discovery_implicit_auc": 0.5913866638254732,
+        "discovery_joyful_auc": 0.6012239202657808,
+        "discovery_excited_auc": 0.5870212624584717,
+        "discovery_content_auc": 0.6557546987663034,
+        "heldout_auc": 0.5924371184371184,
+        "heldout_implicit_auc": 0.555982905982906,
+        "heldout_joyful_auc": 0.564007326007326,
+        "heldout_excited_auc": 0.5781758241758241,
+        "heldout_content_auc": 0.6351282051282052,
+        "natural_scale": 9.5,
+        "rank_score": 0.6484851841426953,
+        "rank_score_rank": 18,
+        "top_activating_examples": [
+          {
+            "activation": 26.5,
+            "text": "My friend that has been out of the country for a year is coming back and we get to hangout again. I'm really looking forward to it.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.625,
+            "text": "Finally figured out why I wasn't getting good sleep",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 25.0,
+            "text": "I used to be overly enthusiastic if a girl gave me any kind of attention, which scared them away...it's funny how now that I'm a more apathetic person girls find me attractive. Human beings are weird",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 24.625,
+            "text": "The new addition to our family was just born this weekend.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 23.25,
+            "text": "Today at work was my review and I was happy because the doctor has been complimenting on my work.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 22.875,
+            "text": "MY daughter had me buy the supplies she wanted and not the ones on the school list. I can't believe they did that.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 22.5,
+            "text": "I love what I do because it's about both inspiring and empowering people to be their best and to excell at their jobs.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 22.25,
+            "text": "I'm in school right now and unable to pay for much since most of my money goes towards bills and that's it. My girlfriend is out of school and working, and so when we do go out, she has to pay a lot of the time. I feel bad for making her do that, but I don't have much of a choice.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 22.25,
+            "text": "Rally time; time to jump on the motorcycle and go cruising!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.75,
+            "text": "I'm thankful for my job. I've got full autonomy of time.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.75,
+            "text": "I really care about my community and it's growth. It's slowly growing and attracts good people.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.75,
+            "text": "I watched the election results come in until early in the morning. As the tally rose towards that magic 270 a single tear runs down my cheek. We really did it. We're going to make america great again",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.625,
+            "text": "The rally is here and the weather is beautiful! Time to head out on the motorcycle.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.625,
+            "text": "The day I got the email saying I had been accepted into my university of choice was amazing",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.625,
+            "text": "I am taking my first ever trip to California next week. I can't wait to go! I've heard so many great things about the place!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.5,
+            "text": "This weekend was going to be my 1st weekend off in two months. Well not any more I have to work,",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.5,
+            "text": "For this month, i have reached my goal for the amount to save. I am thankful for finding willpower to cut on unnecessary spending",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 21.125,
+            "text": "i was waiting all week for saturday morning and i got great weather. i was extactic",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 20.75,
+            "text": "Over 20 years ago, when I was a cashier, I used to take money from the cash register and cover up my tracks. I was never caught. Sometimes I feel bad about it, other times I don't.",
+            "source_label": "guilty",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 20.375,
+            "text": "I love my job. I have been at the same place for several years now. I am very pleased with the way things are going.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 12882,
+        "eligible": true,
+        "conservative_effect_rank": 15,
+        "coverage": 0.3115410273515677,
+        "cohen_d_all": 0.43052318692207336,
+        "cohen_d_implicit": 0.41782626509666443,
+        "conservative_cohen_d": 0.40366873145103455,
+        "coverage_joyful": 0.38,
+        "cohen_d_joyful": 0.4680022597312927,
+        "coverage_excited": 0.298,
+        "cohen_d_excited": 0.40366873145103455,
+        "coverage_content": 0.2565130260521042,
+        "cohen_d_content": 0.42806828022003174,
+        "discovery_auc": 0.6084259938519367,
+        "discovery_implicit_auc": 0.5869295416315554,
+        "discovery_joyful_auc": 0.6427355481727575,
+        "discovery_excited_auc": 0.5999202657807309,
+        "discovery_content_auc": 0.5825704565276734,
+        "heldout_auc": 0.6147741147741147,
+        "heldout_implicit_auc": 0.5862828144078144,
+        "heldout_joyful_auc": 0.6267912087912089,
+        "heldout_excited_auc": 0.6288058608058608,
+        "heldout_content_auc": 0.5887252747252747,
+        "natural_scale": 11.4375,
+        "rank_score": 0.643413055912867,
+        "rank_score_rank": 19,
+        "top_activating_examples": [
+          {
+            "activation": 110.5,
+            "text": "I didn't have a vacuum for a day and it has not been good for awhile. I got a new vacuum tonight and WOW, nice to finally have a clean floor!",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 109.0,
+            "text": "We're finally settled in one place after moving around a lot. It's so nice to be able to put down roots.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 107.0,
+            "text": "Can't wait for sunday! Finally going to the beach. It's been forever",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 106.5,
+            "text": "I was so thrilled to finally get to see Hamilton. I had a blast in there!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 105.5,
+            "text": "It's finally Friday and I'm just so happy about that fact.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 105.5,
+            "text": "Next week I'm finally going on vacation! I feel like it has been forever.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 105.0,
+            "text": "I'm finally done drawing this character for a contest. I think I'm happy with it now.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 105.0,
+            "text": "I'm finally able to afford decent health insurance for once in my life. Not only does it feel good to know I'm covered for some unexpected bad stuff, but I can actually go to the dentist and optometrist and keep up with my teeth/eye health for once.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 105.0,
+            "text": "I'm finally meeting my online girlfriend in person next weekend.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 104.5,
+            "text": "I am so happy. I finally got used to the single life and it is awesome",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 103.5,
+            "text": "I am finally going to be able to afford my new piercing soon. I have been wanting it for a while.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 103.5,
+            "text": "I just won the lottery! I was finally able to pay my house of and my parents' house.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 103.5,
+            "text": "I am finally going on my dream vacation to Tahiti! I can hardly wait!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 103.5,
+            "text": "I am finally pregnant after years of trying!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 102.0,
+            "text": "I'm going to Disney World tomorrow! Finally!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 102.0,
+            "text": "I am so thrilled about Lebron joining the Lakers. Finally something to get us all riled up!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 101.0,
+            "text": "I'm so glad it finally cooled down outside",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 100.5,
+            "text": "Last month, I finally received the promotion at work that I had been working towards. It seemed like I had finally got to the end of a very long road.",
+            "source_label": "content",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 100.5,
+            "text": "Next month we are finally taking a family vacation. It's been so long, it seems!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 99.5,
+            "text": "I get to take a cruise in a few weeks. Finally, all my preparation has come to fruition",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          }
+        ]
+      },
+      {
+        "emotion": "joy",
+        "feature_id": 10746,
+        "eligible": true,
+        "conservative_effect_rank": 35,
+        "coverage": 0.3709139426284189,
+        "cohen_d_all": 0.4847910702228546,
+        "cohen_d_implicit": 0.5006886720657349,
+        "conservative_cohen_d": 0.27867385745048523,
+        "coverage_joyful": 0.318,
+        "cohen_d_joyful": 0.4291515350341797,
+        "coverage_excited": 0.518,
+        "cohen_d_excited": 0.7237525582313538,
+        "coverage_content": 0.27655310621242485,
+        "cohen_d_content": 0.27867385745048523,
+        "discovery_auc": 0.6298597736253848,
+        "discovery_implicit_auc": 0.641204084861282,
+        "discovery_joyful_auc": 0.603441196013289,
+        "discovery_excited_auc": 0.70621926910299,
+        "discovery_content_auc": 0.579818773760145,
+        "heldout_auc": 0.6294725274725275,
+        "heldout_implicit_auc": 0.6380570818070818,
+        "heldout_joyful_auc": 0.6074212454212453,
+        "heldout_excited_auc": 0.6918388278388279,
+        "heldout_content_auc": 0.5891575091575092,
+        "natural_scale": 9.375,
+        "rank_score": 0.6428047511226835,
+        "rank_score_rank": 20,
+        "top_activating_examples": [
+          {
+            "activation": 76.5,
+            "text": "Thanksgiving is almost here. I am so appreciative of the family time and the good food we eat on that day.",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 65.0,
+            "text": "The summer is almost over. I couldn't be any happier!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 63.0,
+            "text": "The weekend is finally here, woohoo!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 58.25,
+            "text": "Well the world famous rally is upon us. I am headed down to see all the motorbikes.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 57.0,
+            "text": "School is starting back up soon, I can't wait to see all my friends again!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 56.0,
+            "text": "School is starting up soon and I'm worried I may not be able to keep up with all of the homework.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "heldout",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 52.5,
+            "text": "Christmas is coming I can't wait for the joyous celebrations ahead",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 51.5,
+            "text": "Halloween is coming and that means there will be haunted houses! I want to go but I don't want to get too scared.",
+            "source_label": "afraid",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 51.25,
+            "text": "It's finally Friday and I'm just so happy about that fact.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 51.0,
+            "text": "It's almost time for my daughters to be home from school. I hope they have had a nice day.",
+            "source_label": "caring",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 49.5,
+            "text": "School is starting back and I get a break from the kids.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 48.25,
+            "text": "The start of school is soon!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 45.5,
+            "text": "The summer feels like it just started but its about to end now. I'm gonna miss my friends for most of the year.",
+            "source_label": "sad",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 45.0,
+            "text": "I alwasy get so happy during the holiday season. It's coming up soon",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 44.75,
+            "text": "Thank goodness August is here. July was too hot for me to stand",
+            "source_label": "grateful",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 44.5,
+            "text": "One more month and I get to go on a vacation to the beach! Its been 5 years so I'm chomping at the bit! Yay!",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 43.75,
+            "text": "I am so happy it is almost August.",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 43.25,
+            "text": "I'm happy that it is almost Fall, my favorite time of year.",
+            "source_label": "excited",
+            "target_label": 1,
+            "split": "discovery",
+            "joy_kind": "explicit"
+          },
+          {
+            "activation": 40.0,
+            "text": "I'm a little sad that Summer's almost over.",
+            "source_label": "disappointed",
+            "target_label": 0,
+            "split": "discovery",
+            "joy_kind": "implicit"
+          },
+          {
+            "activation": 40.0,
+            "text": "I'm so happy that it is Friday!",
+            "source_label": "joyful",
+            "target_label": 1,
+            "split": "heldout",
+            "joy_kind": "explicit"
+          }
+        ]
+      }
+    ]
+  },
+  "probe_features": [
+    {
+      "emotion": "joy",
+      "feature_id": 3271,
+      "eligible": true,
+      "conservative_effect_rank": 2,
+      "coverage": 0.6651100733822548,
+      "cohen_d_all": 0.9445388317108154,
+      "cohen_d_implicit": 0.6251446604728699,
+      "conservative_cohen_d": 0.6251446604728699,
+      "coverage_joyful": 0.736,
+      "cohen_d_joyful": 1.200110673904419,
+      "coverage_excited": 0.61,
+      "cohen_d_excited": 0.6973927021026611,
+      "coverage_content": 0.6492985971943888,
+      "cohen_d_content": 0.9524946212768555,
+      "discovery_auc": 0.7403300982493312,
+      "discovery_implicit_auc": 0.667373736395365,
+      "discovery_joyful_auc": 0.7905554817275748,
+      "discovery_excited_auc": 0.6932259136212623,
+      "discovery_content_auc": 0.7372026444916411,
+      "heldout_auc": 0.7607741147741148,
+      "heldout_implicit_auc": 0.670199938949939,
+      "heldout_joyful_auc": 0.7956703296703297,
+      "heldout_excited_auc": 0.7005274725274725,
+      "heldout_content_auc": 0.7861245421245422,
+      "natural_scale": 12.0,
+      "rank_score": 0.7414067462202981,
+      "rank_score_rank": 2
+    }
+  ]
+}
