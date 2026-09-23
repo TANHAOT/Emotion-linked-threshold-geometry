@@ -52,7 +52,7 @@ def main(args):
             "heldout_annoyed_auc": float(rank.heldout_annoyed_auc),
             "natural_scale": float(group.natural_scale.iloc[0]),
             "baseline_anger_probability": float(curve.loc[0.0]),
-            "dose3_anger_probability": float(curve.loc[args.max_dose]),
+            "maxdose_anger_probability": float(curve.loc[args.max_dose]),
             "target_delta": target_delta,
             "dose_spearman_rho": float(rho),
             "dose_trend_p": float(trend_p),
