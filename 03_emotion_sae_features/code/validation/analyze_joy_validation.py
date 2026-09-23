@@ -53,7 +53,7 @@ def main(args):
             "heldout_implicit_auc": float(rank.heldout_implicit_auc),
             "natural_scale": float(group.natural_scale.iloc[0]),
             "baseline_joy_probability": float(curve.loc[0.0]),
-            "dose3_joy_probability": float(curve.loc[args.max_dose]),
+            "maxdose_joy_probability": float(curve.loc[args.max_dose]),
             "target_delta": target_delta,
             "dose_spearman_rho": float(rho),
             "dose_trend_p": float(trend_p),
