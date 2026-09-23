@@ -3,6 +3,10 @@ name: Unzip to root
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+  
 jobs:
   unzip:
     runs-on: ubuntu-latest
